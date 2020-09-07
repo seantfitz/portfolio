@@ -115,7 +115,7 @@ button{
 }
 .thumb:hover{
 	transform: scale(1.1);
-	/*box-shadow: 5px 5px 5px rgba(0,0,0,0.5);*/
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 .containerOuter{
 	position: relative;
@@ -168,7 +168,7 @@ button{
 	width: 30px;
 	height: 30px;
 	top: 0px;
-	left: -40px;
+	left: -35px;
 
 	background-size: 30px 30px;
 	background-repeat: no-repeat;
@@ -190,7 +190,7 @@ button{
 	position: absolute;
 	width: 300px;
 	top: 0px;
-	left: -40px;
+	left: -340px;
 	/*margin: 0 0 0 -250px;*/
 	opacity: 0;
 	transition: all 0.25s ease-out;
