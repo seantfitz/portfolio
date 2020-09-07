@@ -147,7 +147,8 @@ button{
 #container_tdf{min-width: 670px; max-width: 1000px; min-height: 700px; max-height: 900px; width: 100%; height: 90%;}
 #container_tdf .containerInner{height: 100%;}
 
-#container_memory{max-width: 75vh; width: 100%; border-radius: 5px; overflow: hidden;}
+/*#container_memory{max-width: 75vh; width: 100%; border-radius: 5px; overflow: hidden;}*/
+#container_memory{max-width: 75vh; width: 100%;}
 #container_memory .containerInner{padding-bottom: 118.095238095238095%;}
 
 #container_racing{max-width: 90vh; width: 100%;}
