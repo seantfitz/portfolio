@@ -1,7 +1,3 @@
-let nav = (e)=>{
-	
-}
-
 const details = {
 	"interactive":{
 		"covid": {
@@ -186,52 +182,42 @@ const details = {
 			"description":"Poster promoting a short documentary film festival, the theme for the year being travel.",
 		},
 	}
-}
+};
 
 const thumbPanels = document.getElementsByClassName('thumbnails');
 let thumbsArray = [];
 
-// const start = ()=>{
 
-	for(let i = 0; i < thumbPanels.length; i++){
-		thumbsArray.push(thumbPanels[i].id);
-		// if(i == 0){
-		// 	$('nav').append(`<button class="navBtn active" name="${thumbPanels[i].id}">${thumbPanels[i].id.replace(/_/g,'&nbsp;')}</button>`);
-		// }else{
-		// 	$('nav').append(`<button class="navBtn" name="${thumbPanels[i].id}">${thumbPanels[i].id.replace(/_/g,'&nbsp;')}</button>`);
-		// }
-		$('nav').append(`<button class="navBtn" name="${thumbPanels[i].id}">${thumbPanels[i].id.replace(/_/g,'&nbsp;')}</button>`);
-	}
+for(let i = 0; i < thumbPanels.length; i++){
+	thumbsArray.push(thumbPanels[i].id);
+	$('nav').append(`<button class="navBtn" name="${thumbPanels[i].id}">${thumbPanels[i].id.replace(/_/g,'&nbsp;')}</button>`);
+};
 
-	if(typeof(Storage) !== "undefined" && localStorage['active']){
-		$('.thumbnails, .navBtn').removeClass('active');
-		$(`.navBtn[name="${localStorage['active']}"]`).addClass('active');
-		let matched = false;
-		for(let i in thumbsArray){
-			if(thumbsArray[i] == localStorage['active']){//it's the selected one
-				matched = true;
-				$(`#${thumbsArray[i]}`).addClass('active').removeClass('offLeft previousActive');
-			}else{
-				if(!matched){//comes before the selected one, move it to the left
-					$(`#${thumbsArray[i]}`).addClass('offLeft');	
-				}
+if(typeof(Storage) !== "undefined" && localStorage['active']){
+	$('.thumbnails, .navBtn').removeClass('active');
+	$(`.navBtn[name="${localStorage['active']}"]`).addClass('active');
+	let matched = false;
+	for(let i in thumbsArray){
+		if(thumbsArray[i] == localStorage['active']){//it's the selected one
+			matched = true;
+			$(`#${thumbsArray[i]}`).addClass('active').removeClass('offLeft previousActive');
+		}else{
+			if(!matched){//comes before the selected one, move it to the left
+				$(`#${thumbsArray[i]}`).addClass('offLeft');	
 			}
 		}
-	}else{
-		$('#interactive, .navBtn[name="interactive"]').addClass('active');
 	}
-// };
-
-// localStorage.removeItem('active')
+}else{
+	$('#interactive, .navBtn[name="interactive"]').addClass('active');
+};
 
 $('.navBtn').on('click',(e)=>{
 	let matched = false;
 
 	$('video').trigger('pause');
-
-	$('#preview').removeClass('leftZero');//.html('');
-
+	$('#preview').removeClass('leftZero');
 	$('.active').removeClass('active').addClass('previousActive');
+
 	for(let i in thumbsArray){
 		if(thumbsArray[i] == e.target.name){//it's the selected one
 			matched = true;
@@ -259,7 +245,7 @@ $('.navBtn').on('click',(e)=>{
 	if(typeof(Storage) !== "undefined"){
 		localStorage.setItem('active',e.target.name);
 	}
-})
+});
 
 $('.thumb').on('click',(e)=>{
 	$('.thumbnails').removeClass('animateLeft').addClass('offLeft');
@@ -344,13 +330,11 @@ $('.thumb').on('click',(e)=>{
 	})
 	$('.infoBtn').unbind().on('click',(e)=>{
 		if($('.infoText').hasClass('active')){
-			$('.infoText').removeClass('active');//.html('');
+			$('.infoText').removeClass('active');
 			$('.containerOuter').removeClass('wide');
 		}else{
 			$('.infoText').addClass('active');
 			$('.containerOuter').addClass('wide');
 		}
 	})
-})
-
-// start();
+});
