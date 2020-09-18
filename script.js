@@ -338,3 +338,7 @@ $('.thumb').on('click',(e)=>{
 		}
 	})
 });
+
+$(document).bind("contextmenu",function(e){
+	return false;
+});
