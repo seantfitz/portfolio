@@ -181,6 +181,10 @@ const details = {
 			"title":"TropDoc",
 			"description":"Poster promoting a short documentary film festival, the theme for the year being travel.",
 		},
+		"dirtyglass":{
+			"title":"The Dirty Glass",
+			"description":"Comic strip style illustration of the song <i>The Dirty Glass</i> by <i>Dropkick Murphys</i>. Verses of the song are depicted in the characters' speech bubbles while the lettering bordering the panels repeats the songs chorus.",
+		},
 	}
 };
 
