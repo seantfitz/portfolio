@@ -147,7 +147,8 @@ const details = {
 	"other":{
 		"honey_label":{
 			"title":"G&G's",
-			"description":"Label design for honey from an independent beekeeper.",
+			// "description":"Label design for honey from an independent beekeeper, shown on a 3D model created using <i>Blender</i>.",
+			"description":"Honey label design for an independent beekeeper, shown on a 3D model created using <i>Blender</i>.",
 		},
 		"oana":{
 			"title":"OANA",
@@ -157,9 +158,13 @@ const details = {
 			"title":"Wax Audio",
 			"description":"Logo design for <i>Wax Audio</i>, a musician and mash-up artist.<br><br>The microphone and headphones are arranged to resemble the <i>hammer and sickle</i> symbol.",
 		},
-		"bilt":{
-			"title":"BILT 1st",
-			"description":"Logos and business card design for a property business catering to Buyers, Investors, Landlords and Tenants.",
+		// "bilt":{
+		// 	"title":"BILT 1st",
+		// 	"description":"Logos and business card design for a property business catering to Buyers, Investors, Landlords and Tenants.",
+		// },
+		"heavensnignt":{
+			"title":"Heaven's Night",
+			"description":"A fan-art re-creation of a neon sign that appears in the video game <i>Silent Hill 2</i>. 3D model created using <i>Blender</i>.",
 		},
 		"RANZCRNIVAL":{
 			"title":"RANZCRNIVAL",
@@ -169,9 +174,13 @@ const details = {
 			"title":"Invitation",
 			"description":"Wedding invitation, place card and wishing well note.",
 		},
-		"zukos":{
-			"title":"Zuko's",
-			"description":"Logo and yardage for a 1950s style clothing store shown on a gusseted shopping bag.",
+		// "zukos":{
+		// 	"title":"Zuko's",
+		// 	"description":"Logo and yardage for a 1950s style clothing store shown on a gusseted shopping bag.",
+		// },
+		"neonsign":{
+			"title":"Neon Sign",
+			"description":"Neon sign comprising Chinese characters, set on a brick wall. 3D model created using <i>Blender</i>.",
 		},
 		"dce":{
 			"title":"DCE",
@@ -194,7 +203,7 @@ let thumbsArray = [];
 
 for(let i = 0; i < thumbPanels.length; i++){
 	thumbsArray.push(thumbPanels[i].id);
-	$('nav').append(`<button class="navBtn" name="${thumbPanels[i].id}">${thumbPanels[i].id.replace(/_/g,'&nbsp;')}</button>`);
+	$('nav').append(`<button class="navBtn" name="${thumbPanels[i].id}">${thumbPanels[i].id.replace(/_/g,'&nbsp;').replace('other','art & design')}</button>`);
 };
 
 if(typeof(Storage) !== "undefined" && localStorage['active']){
@@ -216,6 +225,7 @@ if(typeof(Storage) !== "undefined" && localStorage['active']){
 };
 
 $('.navBtn').on('click',(e)=>{
+	// stopCycle();
 	let matched = false;
 
 	$('video').trigger('pause');
@@ -252,6 +262,7 @@ $('.navBtn').on('click',(e)=>{
 });
 
 $('.thumb').on('click',(e)=>{
+	// stopCycle();
 	$('.thumbnails').removeClass('animateLeft').addClass('offLeft');
 	$('.thumbnails.active').removeClass('active').addClass('animateLeft');
 	$('#preview').addClass('leftZero');
@@ -312,8 +323,10 @@ $('.thumb').on('click',(e)=>{
 
 		case 'other':
 		let ext = 'jpg';
-		if(e.target.name == 'bilt'){
-			ext = 'gif';
+		switch(e.target.name){
+			case 'bilt':
+			case 'neonsign':
+			ext = 'gif'
 		}
 		$('#preview').html(`
 			<div class="containerOuter">
@@ -343,6 +356,46 @@ $('.thumb').on('click',(e)=>{
 	})
 });
 
+// const autoCycle = ()=>{
+
+// 	let active = (document.getElementsByClassName('active')[0]).name;
+
+// 	switch(active){
+// 		case 'interactive':active = 'other'; break;
+// 		case 'other':active = 'infographic'; break;
+// 		case 'infographic':active = 'video'; break;
+// 		case 'video':active = 'interactive'; break;
+// 	}
+
+// 	timerCycle = (setTimeout(autoCycle,5000));
+// 	$(`.navBtn[name="${active}"]`).click();
+// 	console.log(timerCycle)
+// };
+
+// const stopCycle = ()=>{
+// 	console.log('stopCycle')
+// 	clearTimeout(timerCycle);
+// 	clearTimeout(timerResume);
+// };
+
+// const resumeCycle = ()=>{
+// 	// timerResume = setTimeout(resumeCycle,1500);
+// };
+
+// let timerCycle = setTimeout(autoCycle,5000);
+// let timerResume;// = setTimeout(resumeCycle,1500);
+
+
+// $('.navBtn').on('mouseover',stopCycle)
+// $('.navBtn').on('mouseout',()=>{
+// 	// stopCycle();
+// 	// clearTimeout(timerCycle);
+// 	timerResume = setTimeout(autoCycle,1000)
+// 	// console.log
+// })
+
+
 $(document).bind("contextmenu",function(e){
+	stopCycle();
 	return false;
 });
