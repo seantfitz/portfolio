@@ -396,6 +396,5 @@ $('.thumb').on('click',(e)=>{
 
 
 $(document).bind("contextmenu",function(e){
-	stopCycle();
 	return false;
 });
