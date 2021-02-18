@@ -215,7 +215,7 @@ $(document).ready(()=>{
 	}else if(!!query.l){
 		active = theGroups[query.l];
 	}else{
-		active = theGroups[0];
+		active = Object.keys(details)[0];
 	};
 	$('.section, button').removeClass('active');
 	$(`#${active}, button[name=${active}]`).addClass('active');
