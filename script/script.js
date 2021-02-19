@@ -212,12 +212,14 @@ const cycle = (e)=>{
 $(document).ready(()=>{
 	if(typeof(Storage) !== "undefined" && localStorage['active']){
 		active = localStorage['active'];
+		$('.section, button').removeClass('active');
 	}else if(!!query.l){
 		active = theGroups[query.l];
+		$('.section, button').removeClass('active');
 	}else{
 		active = Object.keys(details)[0];
 	};
-	$('.section, button').removeClass('active');
+	// $('.section, button').removeClass('active');
 	$(`#${active}, button[name=${active}]`).addClass('active');
 	$(`.topMenu select`).val(active);
 })
