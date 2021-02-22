@@ -15,13 +15,13 @@ const getQueryParams = (qs)=>{
 // localStorage.clear();
 /*****/
 
-// const theGroups = [
-// 	'design',
-// 	'infographic',
-// 	'interactive',
-// 	'video',
-// 	'about',
-// ];
+const categories = [
+	'design',
+	'infographic',
+	'interactive',
+	'video',
+	'about',
+];
 
 let active;
 let selected;
@@ -213,7 +213,7 @@ $(document).ready(()=>{
 	if(typeof(Storage) !== "undefined" && localStorage['active']){
 		active = localStorage['active'];
 	}else if(!!query.l){
-		active = theGroups[query.l];
+		active = categories[query.l];
 	}else{
 		active = Object.keys(details)[0];
 	};
