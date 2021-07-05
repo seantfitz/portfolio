@@ -1,0 +1,59 @@
+1.
+Wax Audio
+Logo design commissioned by audio producer and mashup artist known as Wax Audio. A mashup artist takes two or more existing songs and blends their parts together to create a new track.
+
+None of the mashups by Wax Audio are for sale in any physical or digital format. They are made available on his website for free. It was this ethos that drove the design brief for the logo.
+
+The tagline "Mashups For The People" was to be included, along with the concept of a pair of headphones and a microphone arranged in such a way that resembled the Hammer and Sickle symbol. The requirements were for a logo that could be used on websites and video thumbnails, and that was also transferrable to merchandise such as stickers and t-shirts.
+
+The desired aesthetic was to be reminiscent of soviet propaganda posters. This was achieved through the highly stylised illustrations of the headphones and microphone and rigid geometric composition, combined with the flat colours and typeface used.
+
+2.
+G&G's
+Label design for honey produced by an independent beekeeper. The copy for the label was provided and the brief was to communicate an all-natural product and a sense of happiness.
+
+The loose, freehand illustration style - drawn in Illustrator, using a Wacom tablet - gives a sense of lightness and freedom with all the bees moving in an upward direction. The yellow portion to the right represents the flow of fresh honey while balancing the composition against the text to the left.
+
+Earlier iterations included a black background with reversed text, but the white background ultimately gave the design the most relaxed and uplifting tone.
+
+The label is shown here on a 3D model which I created in Blender. The 3D render demonstrates the label in situ, and the subdued tones of the background draw the focus to the label itself.
+
+3.
+Heaven's Night
+In order to broaden my skillset, I have been learning to create 3D models using Blender. This piece is a personal art project I made to practice my 3D work.
+
+It is a re-creation of a neon sign that appears in the Silent Hill video game series. The original game version is a fairly simple background texture.
+
+With this project, I wanted to explore how a version of this signage could be constructed with real-world proportions and constraints in a 3D space.
+
+In the interest of realism, I considered the materials and construction including the frame, the support brackets, and how the glass tubes that comprise each word could be made as one continuous piece. I also considered where all of the cables would fit within the frame and how gravity would affect them.
+
+4.
+Election 2019
+A web based interactive graphic, produced at AAP, relating to the 2019 federal election.
+
+The brief was to present information about the parliament that was eye-catching, easy to comprehend and encourage user interaction. It had to include information on incumbents and candidates for each electorate in the lead-up to the election and, feature live updating results during the count on election night.
+
+As this graphic was published on numerous websites, the layout needed to be responsive to different devices and screen sizes, while maintaining a functional and visually engaging UI.
+
+The layout used is a visual reference to the "horseshoe" seating arrangement in parliament. Labor members shown with a red overly and to the left, coalition members, blue and to the right, with the crossbench in the middle.
+
+The "Swing-O-Meter" feature simulates a swing of ten percent toward the government or opposition based on two-party-preferred margins.
+
+The interactive graphic was built in HTML and programmed with JavaScript. CSS3 animated transitions were used with the interactive elements.
+
+5.
+Kyrgios vs Nadal
+A static infographic created at AAP for publication both in print and online, in the leadup to the highly anticipated match between Nick Kyrgios and Rafael Nadal in the 2020 Australian Open.
+
+The brief was to create an eye-catching visual interpretation of a text fact-box containing statistics for each of the players. The infographic was to be used as an accompaniment to stories on sports pages about the match. It needed to use a layout that functioned as a template that could be uniformly applied to other match ups across various sports.
+
+Created using Photoshop and Illustrator, a combination of bold text and charts communicate the major statistics for each player. The results of their previous matches against one-another are listed below. Colour-coded text is used in this section to help differentiate the playing surface for each match.
+
+6.
+COVID-19 Household Impacts
+A static infographic created at AAP for publication both in print and online. This graphic was to accompany news stories relating to COVID-19's financial effects.
+
+This is one of many quick turnaround graphics I made while at AAP. The format for these infographics needed to be uniform in their dimensions with a 4:3 aspect ratio in order to be attached to stories within AAP's systems.
+
+It visually interprets data from the Australian Bureau of Statistics. The use of different types of charts and colour-coding enabled me to condense information about different categories and demographics into the limited space available while remaining eye-catching.
