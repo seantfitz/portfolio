@@ -1,0 +1,119 @@
+
+
+<!doctype html>
+<html>
+<head>
+    <!--Hosted-->
+    <title>House of Representatives</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content = "width = device-width, initial-scale = 1, maximum-scale = 1.0, user-scalable=no" />
+    <link rel="stylesheet" href="css/houseofreps.css"/>
+    <link rel="stylesheet" href="css/positioning.css"/>
+    <!-- <script src="script/jquery-1.12.1.min.js"></script> -->
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+        if(!window.jQuery){
+            document.write('<script src="../../global/script/jquery.min.js"><\/script>');//RELATIVE PATH
+        }
+    </script>
+    <!--JQUERY-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92913510-9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-92913510-9');
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="top_box">
+            <div class="left_block" id="top_left" tabindex="0" role="banner">
+                Labor<br>
+                <span class="count" id="labor_count"></span>
+            </div>
+            <div class="right_block" id="top_right" tabindex="2" role="banner">
+                Coalition<br>
+                <span class="count" id="coalition_count"></span>
+            </div>
+            <div id="top_middle" tabindex="1" role="banner">
+                Cross<span class="wide">bench</span><br>
+                <span class="count" id="crossbench_count"></span>
+            </div>
+        </div>
+
+        <div id="controls">
+            <table width="100%" height="80px" cellpadding="0" cellspacing="0">
+                <tr><td>
+                    <input type="radio" class="mode_btn" name="mode" id="swingo" value="swingo" checked>
+                    <label class="radio_label" for="swingo">
+                        <!-- <span></span> -->
+                        Use Swing-O-Meter
+                    </label>
+                    <br>
+                    <input type="radio" class="mode_btn" name="mode" id="live" value="live">
+                    <label class="radio_label" for="live">
+                        <!-- <span></span> -->
+                        See 2019 Results
+                    </label>
+                </td></tr>
+                <tr><td>
+                    <select id="selectorate">
+                        <option value="none">Find Electorate</option>
+                    </select>
+                </td></tr>
+            </table>
+        </div>
+
+        <div id="graph_frame">
+            <div id="tally"></div>
+            <div id="graph_body">
+                <div class="graph_bar" id="bar_labor"></div>
+                <div class="graph_bar" id="bar_crossbench"></div>
+                <div class="graph_bar" id="bar_coalition"></div>
+                <div id="finish_line"></div>
+            </div>
+            <div id="graph_caption"></div>
+        </div>
+
+        <div id="swing_o_frame">            
+            <div id="percentage">Swing-O-Meter 0%</div>
+            <input type="range" id="slider" value="100" max="200" step="5">
+        </div>
+
+        <div id="counter" class="display_none"></div>
+
+        <div class="frame">
+            <div class="container" id="container">
+                <div class="left_block" id="left_block"></div>
+                <div class="right_block" id="right_block"></div>
+                <div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div><div class="x_box"></div>
+            </div>
+        </div>
+
+        <div class="display_none" id="log_frame">
+            <div id="log_container">
+                <div id="log"></div>
+            </div>
+            <div class="log_nav" id="log_up"></div>
+            <div class="log_nav" id="log_down"></div>
+        </div>
+
+        <div id="tool_tip_arrow"></div>
+        <div id="tool_tip_body"></div>
+        <div class="load display_none">
+            <div class="cog"></div>
+            <div class="loadMessage">loading</div>
+        </div>
+        <!-- <span style="position: absolute;bottom: 3px;left: 3px;font-size: 8px;color: #777;z-index: 100;">Source: AEC</span> -->
+        <span style="position: absolute;bottom: 3px;right: 3px;font-size: 8px;color: #777;z-index: 100;">created by AAP</span>
+    </div>
+    <script type="text/javascript" src="script/houseofreps.js"></script>
+</body>
+</html>

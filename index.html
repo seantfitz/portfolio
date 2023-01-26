@@ -1,153 +1,332 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<title>Sean Fitzpatrick</title>
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-		<meta name="viewport" content="width:device-width, initial-scale=1" />
-		<link href="css/style.css" type="text/css" rel="stylesheet" media="all" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	</head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-96MK1V9K8C"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SeanFitz</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
 
-		gtag('config', 'G-96MK1V9K8C');
-	</script>
-	<body>
-		<main>
-			<div class="sideMenu">
-				<div class="seanpic_120"></div>
-				<div class="h1">Sean Fitzpatrick</div>
-				<div class="navBtns">
-					<button class="navBtn" name="design">ART & DESIGN</button>
-					<button class="navBtn" name="infographic">INFOGRAPHIC</button>
-					<button class="navBtn" name="interactive">INTERACTIVE / UI</button>
-					<button class="navBtn" name="video">MOTION</button>
-					<!-- <button class="navBtn" name="about">ABOUT</button> -->
-				</div>
-				<div class="infoText"></div>
-				<div class="contact">
-					<!-- <form action="mailto:sean.tfitz@icloud.com">
-						<button name="email">email</button>
-					</form> -->
-					<a href="mailto:sean.tfitz@icloud.com"><button name="email">email</button></a>
-					<form action="https://www.linkedin.com/in/sean-fitzpatrick-5945431b4/" target="blank">
-						<button name="linkedin">linkedin</button>
-					</form>
+<div class="bg"></div>
+
+<header>
+	<nav>
+		<span>Sean Fitzpatrick</span>
+		<span>Sean Fitzpatrick</span>
+		<a href="#interactiveui">Interactive / UI</a>
+		<a href="#artdesign">Art & Design</a>
+		<a href="#infographic">Infographic</a>
+		<a href="#motion">Motion</a>
+		<a href="#about">About / Contact</a>
+
+		<div class="hamburger">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+
+		<div class="down">
+			<div></div>
+		</div>
+	</nav>
+</header>
+
+<div id="vertNav">
+	<nav>
+		<a href="#interactiveui">Interactive / UI</a>
+		<a href="#artdesign">Art & Design</a>
+		<a href="#infographic">Infographic</a>
+		<a href="#motion">Motion</a>
+		<a href="#about">About / Contact</a>
+	</nav>
+</div>
+
+<main>
+	<section id="interactiveui">
+		<article id="world-cup">
+			<figure>
+				<h1>World Cup</h1>
+				<p>Interactive infographic for the 2022 FIFA World Cup. The 3D ball can be rotated by dragging, and can be spun on the horizontal axis. The pentagonal faces of the ball show twelve of the top players in the competition. Clicking the faces zooms in and displays cards showing player names and information. Info cards can by cycled with the arrow navigation.</p>
+				<p>The ball model was created in <i>Blender</i> and is rendered in the browser using <i>Three.js</i>. Animations are achieved using <i>GSAP</i> and custom JavaScript.</p>
+			</figure>
+			<div class="container outer sticky">
+				<div class="container inner sticky">
+					<div class="loader">
+						<div class="lds-default">
+							<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+						</div>
+					</div>
+					<iframe frameborder="0" scrolling="no" loading="lazy" src="http://localhost:8000/Documents/GitHub/temp/world-cup/ball/"></iframe>
+					<sub>Created at News.Net</sub>
 				</div>
 			</div>
+		</article>
 
-			<div class="topMenu">
-				<div class="seanpic_60"></div>
-				<div>
-					<div class="h1">Sean Fitzpatrick</div>
-				</div>
-				<div class="topBtn">
-					<select>
-						<option value="design">ART & DESIGN</option>
-						<option value="infographic">INFOGRAPHIC</option>
-						<option value="interactive">INTERACTIVE / UI</option>
-						<option value="video">MOTION</option>
-						<!-- <option value="about">ABOUT</option> -->
-					</select>
-				</div>
-				<a class="topBtn" id="email" href="mailto:sean.tfitz@icloud.com"></a>
-				<a class="topBtn" id="linkedin" href="https://www.linkedin.com/in/sean-fitzpatrick-5945431b4/" target="blank"></a>
+		<article id="election">
+			<figure>
+				<h1>Election</h1>
+				<p>Interactive graphic for the 2019 federal election. Displays the state of the parliament prior to, and following May 18 2019.</p>
+				<p>The pre-election 'Swing-O-Meter' simulates a swing of ten percent toward the government or opposition based on two-party-preferred margins. The yellow stars appearing on icons represent a seat won. Clicking on each icon reveals information about that electorate.</p>
+				<p>Each electorate can be selected from the drop-down menu, highlighting it's icon in the main section. The results were updated continuously on election night.</p>
+			</figure>
+
+			<div class="container outer">
+				<div class="container inner">
+
+					<div class="loader">
+						<div class="lds-default">
+							<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+						</div>
+					</div>
+					<iframe frameborder="0" scrolling="no" loading="lazy" src="embed/election/index.html"></iframe>
+					<sub>Created at Australian Associated Press</sub>
+				</div>	
 			</div>
-			
-			<div class="section" id="infographic">
-				<div class="masonry">
-					<div class="item col0"><img class="thumb" draggable="false" src="images/thumbs/kyrgios-nadal.jpg" name="kyrgios-nadal"></div>
-					<div class="item col1"><img class="thumb" draggable="false" src="images/thumbs/COVID19-symptoms.jpg" name="COVID19-symptoms"></div>
-					<div class="item col2"><img class="thumb" draggable="false" src="images/thumbs/parliament.jpg" name="parliament"></div>
-					<div class="item col2 col1"><img class="thumb" draggable="false" src="images/thumbs/DST_ByState_Islands-01.jpg" name="DST_ByState_Islands-01"></div>
-					<div class="item col3 col2"><img class="thumb" draggable="false" src="images/thumbs/melbourne-lockdown.jpg" name="melbourne-lockdown"></div>
-					<div class="item col1"><img class="thumb" draggable="false" src="images/thumbs/parliament.jpg" name="parliament"></div>
-					<div class="item col1"><img class="thumb" draggable="false" src="images/thumbs/melbourne-lockdown.jpg" name="melbourne-lockdown"></div>
-					<div class="item col0"><img class="thumb" draggable="false" src="images/thumbs/transport.jpg" name="transport"></div>
-					<div class="item col3 col1"><img class="thumb" draggable="false" src="images/thumbs/ABS_200505.jpg" name="ABS_200505"></div>
-					<div class="item col3 col1"><img class="thumb" draggable="false" src="images/thumbs/coal-power-stations.jpg" name="coal-power-stations"></div>
-					<div class="item col3 col2"><img class="thumb" draggable="false" src="images/thumbs/COVID19-symptoms.jpg" name="COVID19-symptoms"></div>
-					<div class="item col3"><img class="thumb" draggable="false" src="images/thumbs/DST_ByState_Islands-01.jpg" name="DST_ByState_Islands-01"></div>
-					<div class="item col2"><img class="thumb" draggable="false" src="images/thumbs/ABS_200505.jpg" name="ABS_200505"></div>
-					<div class="item col0"><img class="thumb" draggable="false" src="images/thumbs/aviation.jpg" name="aviation"></div>
-					<div class="item col0"><img class="thumb" draggable="false" src="images/thumbs/budgetpreview_0722-01.jpg" name="budgetpreview_0722-01"></div>
-					<div class="item col3"><img class="thumb" draggable="false" src="images/thumbs/parliament.jpg" name="parliament"></div>
-					<div class="item col0"><img class="thumb" draggable="false" src="images/thumbs/nuclear-kimba.jpg" name="nuclear-kimba"></div>
-					<div class="item col2"><img class="thumb" draggable="false" src="images/thumbs/coal-power-stations.jpg" name="coal-power-stations"></div>
-					<div class="item col0"><img class="thumb" draggable="false" src="images/thumbs/COVIDHOTSPOTS-01.jpg" name="COVIDHOTSPOTS-01"></div>
-				</div>
-			</div>
+		</article>
 
-			<div class="section" id="interactive">
-				<div class="masonry">
-					<div class="item col0"><img class="thumb" draggable="false" id="election" src="images/thumbs/election.jpg" name="election"></div>
-					<div class="item col0"><img class="thumb" draggable="false" id="covid" src="images/thumbs/covid.jpg" name="covid"></div>
-					<div class="item col3"><img class="thumb" draggable="false" id="season" src="images/thumbs/season.jpg" name="season"></div>
-					<div class="item col3 col2"><img class="thumb" draggable="false" id="grandfinal" src="images/thumbs/grandfinal.jpg" name="grandfinal"></div>
+		<article id="memory">
+			<figure>
+				<h1>Memory</h1>
+				<p>A pair-matching memory game themed around royal couples, made in the lead up to Prince Harry and Meghan Markle's 2018 wedding.</p>
+				<p>The objective is to match the cards for the royal couples. The game can be played solo, against another person or against the computer, with two difficulty options.</p>
+			</figure>
 
-					<div class="item col0"><img class="thumb" draggable="false" id="tdf" src="images/thumbs/tdf.jpg" name="tdf"></div>
-					<div class="item col0"><img class="thumb" draggable="false" id="memory" src="images/thumbs/memory.jpg" name="memory"></div>
-					<div class="item col0"><img class="thumb" draggable="false" id="nzelection" src="images/thumbs/nzelection.jpg" name="nzelection"></div>
-					<div class="item col0"><img class="thumb" draggable="false" id="tennis" src="images/thumbs/tennis.jpg" name="tennis"></div>
-					<!-- <div class="item col0"><img class="thumb" draggable="false" id="racing" src="images/thumbs/racing.jpg" name="racing"></div> -->
-					<div class="item col2 col1"><img class="thumb" draggable="false" id="season" src="images/thumbs/season.jpg" name="season"></div>
-					<div class="item col1"><img class="thumb" draggable="false" id="grandfinal" src="images/thumbs/grandfinal.jpg" name="grandfinal"></div>
-					<div class="item col0"><img class="thumb" draggable="false" id="racing" src="images/thumbs/racing.jpg" name="racing"></div>
+			<div class="container outer">
+				<div class="container inner">
+
+					<div class="loader">
+						<div class="lds-default">
+							<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+						</div>
+					</div>
+					<iframe frameborder="0" scrolling="no" loading="lazy" src="embed/memory/index.html?g=harry"></iframe>
+					<sub>Created at Australian Associated Press</sub>
 				</div>
 			</div>
-				
-			<div class="section" id="design">
-				<div class="masonry">
-					<div class="item col0"><img class="thumb" draggable="false" src="images/thumbs/waxlogo.jpg" name="waxlogo"></div>
-					<div class="item col1"><img class="thumb" draggable="false" src="images/thumbs/honey_label.jpg" name="honey_label"></div>
-					<div class="item col0"><img class="thumb" draggable="false" src="images/thumbs/heavensnight.jpg" name="heavensnight"></div>
-					<div class="item col0"><img class="thumb" draggable="false" src="images/thumbs/oana.jpg" name="oana"></div>
-					<!-- <div class="item col3"><img class="thumb" draggable="false" src="images/thumbs/RANZCRNIVAL.jpg" name="RANZCRNIVAL"></div> -->
-					<div class="item col3"><img class="thumb" draggable="false" src="images/thumbs/tropdoc.jpg" name="tropdoc"></div>
-					
-					<div class="item col2 col1"><img class="thumb" draggable="false" src="images/thumbs/neonsign.gif" name="neonsign"></div>
-					<div class="item col2 col1"><img class="thumb" draggable="false" src="images/thumbs/RANZCRNIVAL.jpg" name="RANZCRNIVAL"></div>
-					<div class="item col2 col1"><img class="thumb" draggable="false" src="images/thumbs/dirtyglass.jpg" name="dirtyglass"></div>
-					<div class="item col3 col2"><img class="thumb" draggable="false" src="images/thumbs/honey_label.jpg" name="honey_label"></div>
-					<div class="item col2 col1"><img class="thumb" draggable="false" src="images/thumbs/tropdoc.jpg" name="tropdoc"></div>
-					<div class="item col3"><img class="thumb" draggable="false" src="images/thumbs/dirtyglass.jpg" name="dirtyglass"></div>
-					<div class="item col0"><img class="thumb" draggable="false" src="images/thumbs/dce.jpg" name="dce"></div>
-					<div class="item col3"><img class="thumb" draggable="false" src="images/thumbs/neonsign.gif" name="neonsign"></div>
-					<!-- <div class="item col3"><img class="thumb" draggable="false" src="images/thumbs/tropdoc.jpg" name="tropdoc"></div> -->
-					<div class="item col3"><img class="thumb" draggable="false" src="images/thumbs/RANZCRNIVAL.jpg" name="RANZCRNIVAL"></div>
-					<div class="item"><img class="thumb" draggable="false" src="images/thumbs/invitation.jpg" name="invitation"></div>
-				</div>
-			</div>
+		</article>
 
-			<div class="section" id="video">
-				<div class="masonry">
-					<div class="item"><img class="thumb" draggable="false" src="video/augusta.jpg" name="augusta"></div>
-					<div class="item"><img class="thumb" draggable="false" src="video/m4tunnel.jpg" name="m4tunnel"></div>
-					<div class="item"><img class="thumb" draggable="false" src="video/apollo11.jpg" name="apollo11"></div>
-					<div class="item"><img class="thumb" draggable="false" src="video/sharks.jpg" name="sharks"></div>
-					<div class="item"><img class="thumb" draggable="false" src="video/chineseship.jpg" name="chineseship"></div>
-				</div>
-			</div>
+		<article id="road_toll">
+			<figure>
+				<h1>Road Toll</h1>
+				<p>Interactive infographic showing road toll statistics. Column charts show national and state totals by month, and totals per local government area by year.</p>
+				<p>Each column can be clicked to change the information displayed in the doughnut charts. Statistics from ABS, charts made with D3.</p>
+			</figure>
 
-			<div id="preview"></div>
-			<div id="spacer"></div>
-		</main>
-		<script type="text/javascript">
-			$(document).bind("contextmenu",function(e) {
-				return false;
-			});
-		</script>
-		<script type="text/javascript" src="script/details.js"></script>
-		<script type="text/javascript" src="script/script.js"></script>
-	</body>
+			<div class="container outer">
+				<div class="container inner">
+
+					<div class="loader">
+						<div class="lds-default">
+							<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+						</div>
+					</div>
+
+					<iframe frameborder="0" scrolling="no" loading="lazy" src="../road_toll/"></iframe>
+				</div>
+				<sub>Created at News.Net</sub>
+			</div>
+		</article>
+	</section>
+
+
+	<section id="artdesign">
+		<article id="honey-label">
+			<figure>
+				<h1>G&G's</h1>
+				<p>Honey label design for an independent beekeeper, shown on a 3D model created using <i>Blender</i>.</p>
+			</figure>
+
+			<div class="container outer">
+				<img src="https://seantfitz.github.io/portfolio/design/honey_label.jpg">
+				<sub>Commissioned work</sub>
+			</div>
+		</article>
+
+		<article id="wax-audio">
+			<figure>
+				<h1>Wax Audio</h1>
+				<p>Logo design for <i>Wax Audio</i>, a musician and mash-up artist.</p>
+				<p>The design is intended to resemble Soviet propaganda posters. The microphone and headphones are arranged to resemble the <i>hammer and sickle</i> symbol.</p>
+			</figure>
+
+			<div class="container outer">
+				<img src="https://seantfitz.github.io/portfolio/design/waxlogo.jpg">
+				<sub>Commissioned work</sub>
+			</div>
+		</article>
+
+		<article id="heavens-night">
+			<figure>
+				<h1>Heaven's Night</h1>
+				<p>A fan-art re-creation of a neon sign that appears in the video game <i>Silent Hill 2</i>. 3D model created using <i>Blender</i>.</p>
+			</figure>
+
+			<div class="container outer">
+				<img src="https://seantfitz.github.io/portfolio/design/heavensnight.jpg">
+				<sub>Personal project</sub>
+			</div>
+		</article>
+
+		<article id="assange">
+			<figure>
+				<h1>Assange</h1>
+				<p>Comic book style illustration of Julian Assange created from a photograph using <i>Photoshop</i> filters. Used as a featured image for a news article.</p>
+			</figure>
+
+			<div class="container outer">
+				<img src="design/julianAssange_01.jpg">
+				<sub>Created at News.Net</sub>
+			</div>
+		</article>
+
+		<article id="neon-sign">
+			<figure>
+				<h1>Buzzing Neon Sign</h1>
+				<p>Neon sign comprising Chinese characters, set on a brick wall. The text translates to "Succulent Chinese meal".</p>
+				<p>3D model created using <i>Blender</i>. Multiple renders compiled into an animated GIF to create the flickering effect.</p>
+			</figure>
+
+			<div class="container outer">
+				<img src="https://seantfitz.github.io/portfolio/design/neonsign.gif">
+				<sub>Personal project</sub>
+			</div>
+		</article>
+
+		<article id="oana">
+			<figure>
+				<h1>OANA</h1>
+				<p>Logo design for OANA. The Organization of Asia-Pacific News Agencies. Based on a flower, the five 'petals' represent the five Asia-Pacific regions covered. The logotype is inspired by the infinity symbol.</p>
+			</figure>
+
+			<div class="container outer">
+				<img src="https://seantfitz.github.io/portfolio/design/oana.jpg">
+				<sub>Proposed design</sub>
+			</div>
+		</article>
+	</section>
+
+
+	<section id="infographic">
+		
+		<article id="qeii">
+			<figure>
+				<h1>Queen Elizabeth II</h1>
+				<p>Infographic breaking down significant numbers relating to Queen Elizabeth II.</p>
+			</figure>
+
+			<div class="container outer">
+				<img src="infographic/life-in-numbers.jpg">
+				<sub>Created at News.Net</sub>
+			</div>
+		</article>
+
+		<article id="enso">
+			<figure>
+				<h1>Southern Oscillation Index</h1>
+				<p>Infographic in three panels explaining the El Niño / La Niña cycle.</p>
+			</figure>
+
+			<div class="container outer">
+				<div class="container inner">
+
+					<div class="loader">
+						<div class="lds-default">
+							<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+						</div>
+					</div>
+
+					<iframe frameborder="0" scrolling="no" loading="lazy" src="embed/enso"></iframe>
+					<sub>Created at News.Net</sub>
+				</div>	
+			</div>
+		</article>
+
+		<article id="kyrgios">
+			<figure>
+				<h1>Kyrgios vs Nadal</h1>
+				<p>Infographic showing how Nick Kyrgios and Rafael Nadal compared ahead of their fourth-round Australian Open 2020 match. Created using <i>Adobe Illustrator</i>.</p>
+				<p>Published 25/01/2020</p>
+			</figure>
+
+			<div class="container outer">
+				<img src="https://seantfitz.github.io/portfolio/infographic/kyrgios-nadal.jpg">
+				<sub>Created at Australian Associated Press</sub>
+			</div>
+		</article>
+
+		<article id="covid-financial">
+			<figure>
+				<h1>Covid Financial</h1>
+				<p>Inforaphic showing the financial impacts of COVID-19 on Australian households. Data released by Australian Bureau of Statistics May 5 2020. Created using <i>Adobe Illustrator</i>.</p>
+			</figure>
+
+			<div class="container outer">
+				<img src="https://seantfitz.github.io/portfolio/infographic/ABS_200505.jpg">
+				<sub>Created at Australian Associated Press</sub>
+			</div>
+		</article>
+	</section>
+
+
+	<section id="motion">
+		<article id="augusta">
+			<figure>
+				<h1>Augusta</h1>
+				<p>An animated hole by hole fly through of the Augusta golf course, created using Google Earth Studio.</p>
+				<p>The pin flags for each hole were then added using <i>Adobe After Effects</i>. Music was created in <i>Garage Band</i>.</p>
+			</figure>
+
+			<div class="container outer">
+				<video id="vid" controls="" controlslist="nodownload" prelolad="none" poster="https://seantfitz.github.io/portfolio/video/augusta.jpg">
+					<source src="https://seantfitz.github.io/portfolio/video/augusta.mp4" type="video/mp4">
+				</video>
+				<sub>Created at Australian Associated Press</sub>
+			</div>
+		</article>
+
+		<article id="westconnex">
+			<figure>
+				<h1>M4 Tunnel</h1>
+				<p>A video made using a custom <i>Electron</i> application that I created for quick production of video, compiling still photography, footage and caption overlays.</p>
+				<p>Features animation created using Google Earth Studio, combined with overlays made with KML, showing the approximate route of the M4 tunnel between Homebush and Haberfield next to the existing route along Parramatta Road.</p>
+			</figure>
+
+			<div class="container outer">
+				<video id="vid" controls="" controlslist="nodownload" prelolad="none" poster="https://seantfitz.github.io/portfolio/video/m4tunnel.jpg">
+					<source src="https://seantfitz.github.io/portfolio/video/m4tunnel.mp4" type="video/mp4">
+				</video>
+				<sub>Created at Australian Associated Press</sub>
+			</div>
+		</article>
+	</section>
+
+
+	<section id="about">
+		<article>
+			<figure>
+
+				<p>Hello. My name is Sean Fitzpatrick, I'm a Sydney based graphic graphic designer and front-end web developer. With over a decade of experience in news media, I've developed a broad skill set.</p>
+				<p>My work has included illustration, infographics, interactive web content, browser games, interactive maps and widgets, UI design, 3D modelling, animation and video production. I've also created native desktop applications.</p>
+				<p>Before joining Australian Associated Press and working on all things digital, I spent some time working in print design, gaining experience in print production and operating finishing equipment.</p>
+				<p>If you're interested in working with me, you can get in touch via the links below.</p>
+				<p>Cheers!</p>
+
+				<div id="contact">
+					<a href="mailto:sean.tfitz@icloud.com">email</a>
+					<a href="https://www.linkedin.com/in/sean-fitzpatrick-5945431b4/" target="blank">linkedin</a>
+				</div>
+				<img src="images/sean2.png">
+			</figure>
+		</article>
+	</section>
+
+	<a href="#top" id="top">Top</a>
+</main>
+
+<script src="script/index.js"></script>
+
+</script>
+
+</body>
 </html>
-
-
-
-
-

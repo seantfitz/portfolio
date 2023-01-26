@@ -1,0 +1,606 @@
+.labor_pos_0{top:0%;left:0%;}
+.labor_pos_1{top:6.666666666667%;left:0%;}
+.labor_pos_2{top:13.333333333334%;left:0%;}
+.labor_pos_3{top:20.000000000001%;left:0%;}
+.labor_pos_4{top:26.666666666668%;left:0%;}
+.labor_pos_5{top:33.333333333335%;left:0%;}
+.labor_pos_6{top:40.000000000002%;left:0%;}
+.labor_pos_7{top:46.666666666669%;left:0%;}
+.labor_pos_8{top:53.333333333336%;left:0%;}
+.labor_pos_9{top:60.000000000003%;left:0%;}
+.labor_pos_10{top:66.66666666667%;left:0%;}
+.labor_pos_11{top:73.333333333337%;left:0%;}
+.labor_pos_12{top:80.000000000004%;left:0%;}
+.labor_pos_13{top:86.666666666671%;left:0%;}
+.labor_pos_14{top:93.333333333338%;left:0%;}
+.labor_pos_15{top:0%;left:6.666666666667%;}
+.labor_pos_16{top:6.666666666667%;left:6.666666666667%;}
+.labor_pos_17{top:13.333333333334%;left:6.666666666667%;}
+.labor_pos_18{top:20.000000000001%;left:6.666666666667%;}
+.labor_pos_19{top:26.666666666668%;left:6.666666666667%;}
+.labor_pos_20{top:33.333333333335%;left:6.666666666667%;}
+.labor_pos_21{top:40.000000000002%;left:6.666666666667%;}
+.labor_pos_22{top:46.666666666669%;left:6.666666666667%;}
+.labor_pos_23{top:53.333333333336%;left:6.666666666667%;}
+.labor_pos_24{top:60.000000000003%;left:6.666666666667%;}
+.labor_pos_25{top:66.66666666667%;left:6.666666666667%;}
+.labor_pos_26{top:73.333333333337%;left:6.666666666667%;}
+.labor_pos_27{top:80.000000000004%;left:6.666666666667%;}
+.labor_pos_28{top:86.666666666671%;left:6.666666666667%;}
+.labor_pos_29{top:93.333333333338%;left:6.666666666667%;}
+.labor_pos_30{top:0%;left:13.3333333333333%;}
+.labor_pos_31{top:6.666666666667%;left:13.3333333333333%;}
+.labor_pos_32{top:13.333333333334%;left:13.3333333333333%;}
+.labor_pos_33{top:20.000000000001%;left:13.3333333333333%;}
+.labor_pos_34{top:26.666666666668%;left:13.3333333333333%;}
+.labor_pos_35{top:33.333333333335%;left:13.3333333333333%;}
+.labor_pos_36{top:40.000000000002%;left:13.3333333333333%;}
+.labor_pos_37{top:46.666666666669%;left:13.3333333333333%;}
+.labor_pos_38{top:53.333333333336%;left:13.3333333333333%;}
+.labor_pos_39{top:60.000000000003%;left:13.3333333333333%;}
+.labor_pos_40{top:66.66666666667%;left:13.3333333333333%;}
+.labor_pos_41{top:73.333333333337%;left:13.3333333333333%;}
+.labor_pos_42{top:80.000000000004%;left:13.3333333333333%;}
+.labor_pos_43{top:86.666666666671%;left:13.3333333333333%;}
+.labor_pos_44{top:93.333333333338%;left:13.3333333333333%;}
+.labor_pos_45{top:0%;left:20%;}
+.labor_pos_46{top:6.666666666667%;left:20%;}
+.labor_pos_47{top:13.333333333334%;left:20%;}
+.labor_pos_48{top:20.000000000001%;left:20%;}
+.labor_pos_49{top:26.666666666668%;left:20%;}
+.labor_pos_50{top:33.333333333335%;left:20%;}
+.labor_pos_51{top:40.000000000002%;left:20%;}
+.labor_pos_52{top:46.666666666669%;left:20%;}
+.labor_pos_53{top:53.333333333336%;left:20%;}
+.labor_pos_54{top:60.000000000003%;left:20%;}
+.labor_pos_55{top:66.66666666667%;left:20%;}
+.labor_pos_56{top:73.333333333337%;left:20%;}
+.labor_pos_57{top:80.000000000004%;left:20%;}
+.labor_pos_58{top:86.666666666671%;left:20%;}
+.labor_pos_59{top:93.333333333338%;left:20%;}
+.labor_pos_60{top:0%;left:26.66666667%;}
+.labor_pos_61{top:6.666666666667%;left:26.66666667%;}
+.labor_pos_62{top:13.333333333334%;left:26.66666667%;}
+.labor_pos_63{top:20.000000000001%;left:26.66666667%;}
+.labor_pos_64{top:26.666666666668%;left:26.66666667%;}
+.labor_pos_65{top:33.333333333335%;left:26.66666667%;}
+.labor_pos_66{top:40.000000000002%;left:26.66666667%;}
+.labor_pos_67{top:46.666666666669%;left:26.66666667%;}
+.labor_pos_68{top:53.333333333336%;left:26.66666667%;}
+.labor_pos_69{top:60.000000000003%;left:26.66666667%;}
+.labor_pos_70{top:66.66666666667%;left:26.66666667%;}
+.labor_pos_71{top:73.333333333337%;left:26.66666667%;}
+.labor_pos_72{top:80.000000000004%;left:26.66666667%;}
+.labor_pos_73{top:86.666666666671%;left:26.66666667%;}
+.labor_pos_74{top:93.333333333338%;left:26.66666667%;}
+.labor_pos_75{top:0%;left:33.33333333%;}
+.labor_pos_76{top:6.666666666667%;left:33.33333333%;}
+.labor_pos_77{top:13.333333333334%;left:33.33333333%;}
+.labor_pos_78{top:20.000000000001%;left:33.33333333%;}
+.labor_pos_79{top:26.666666666668%;left:33.33333333%;}
+.labor_pos_80{top:33.333333333335%;left:33.33333333%;}
+.labor_pos_81{top:40.000000000002%;left:33.33333333%;}
+.labor_pos_82{top:46.666666666669%;left:33.33333333%;}
+.labor_pos_83{top:53.333333333336%;left:33.33333333%;}
+.labor_pos_84{top:60.000000000003%;left:33.33333333%;}
+.labor_pos_85{top:66.66666666667%;left:33.33333333%;}
+.labor_pos_86{top:73.333333333337%;left:33.33333333%;}
+.labor_pos_87{top:80.000000000004%;left:33.33333333%;}
+.labor_pos_88{top:86.666666666671%;left:33.33333333%;}
+.labor_pos_89{top:93.333333333338%;left:33.33333333%;}
+.labor_pos_90{top:0%;left:40%;}
+.labor_pos_91{top:6.666666666667%;left:40%;}
+.labor_pos_92{top:13.333333333334%;left:40%;}
+.labor_pos_93{top:20.000000000001%;left:40%;}
+.labor_pos_94{top:26.666666666668%;left:40%;}
+.labor_pos_95{top:33.333333333335%;left:40%;}
+.labor_pos_96{top:40.000000000002%;left:40%;}
+.labor_pos_97{top:46.666666666669%;left:40%;}
+.labor_pos_98{top:53.333333333336%;left:40%;}
+.labor_pos_99{top:60.000000000003%;left:40%;}
+.labor_pos_100{top:66.66666666667%;left:40%;}
+.labor_pos_101{top:73.333333333337%;left:40%;}
+.labor_pos_102{top:80.000000000004%;left:40%;}
+.labor_pos_103{top:86.666666666671%;left:40%;}
+.labor_pos_104{top:93.333333333338%;left:40%;}
+.labor_pos_105{top:0%;left:46.66666667%;}
+.labor_pos_106{top:6.666666666667%;left:46.66666667%;}
+.labor_pos_107{top:13.333333333334%;left:46.66666667%;}
+.labor_pos_108{top:20.000000000001%;left:46.66666667%;}
+.labor_pos_109{top:26.666666666668%;left:46.66666667%;}
+.labor_pos_110{top:33.333333333335%;left:46.66666667%;}
+.labor_pos_111{top:40.000000000002%;left:46.66666667%;}
+.labor_pos_112{top:46.666666666669%;left:46.66666667%;}
+.labor_pos_113{top:53.333333333336%;left:46.66666667%;}
+.labor_pos_114{top:60.000000000003%;left:46.66666667%;}
+.labor_pos_115{top:66.66666666667%;left:46.66666667%;}
+.labor_pos_116{top:73.333333333337%;left:46.66666667%;}
+.labor_pos_117{top:80.000000000004%;left:46.66666667%;}
+.labor_pos_118{top:86.666666666671%;left:46.66666667%;}
+.labor_pos_119{top:93.333333333338%;left:46.66666667%;}
+.labor_pos_120{top:0%;left:53.33333333%;}
+.labor_pos_121{top:6.666666666667%;left:53.33333333%;}
+.labor_pos_122{top:13.333333333334%;left:53.33333333%;}
+.labor_pos_123{top:20.000000000001%;left:53.33333333%;}
+.labor_pos_124{top:26.666666666668%;left:53.33333333%;}
+.labor_pos_125{top:33.333333333335%;left:53.33333333%;}
+.labor_pos_126{top:40.000000000002%;left:53.33333333%;}
+.labor_pos_127{top:46.666666666669%;left:53.33333333%;}
+.labor_pos_128{top:53.333333333336%;left:53.33333333%;}
+.labor_pos_129{top:60.000000000003%;left:53.33333333%;}
+.labor_pos_130{top:66.66666666667%;left:53.33333333%;}
+.labor_pos_131{top:73.333333333337%;left:53.33333333%;}
+.labor_pos_132{top:80.000000000004%;left:53.33333333%;}
+.labor_pos_133{top:86.666666666671%;left:53.33333333%;}
+.labor_pos_134{top:93.333333333338%;left:53.33333333%;}
+.labor_pos_135{top:0%;left:60%;}
+.labor_pos_136{top:6.666666666667%;left:60%;}
+.labor_pos_137{top:13.333333333334%;left:60%;}
+.labor_pos_138{top:20.000000000001%;left:60%;}
+.labor_pos_139{top:26.666666666668%;left:60%;}
+.labor_pos_140{top:33.333333333335%;left:60%;}
+.labor_pos_141{top:40.000000000002%;left:60%;}
+.labor_pos_142{top:46.666666666669%;left:60%;}
+.labor_pos_143{top:53.333333333336%;left:60%;}
+.labor_pos_144{top:60.000000000003%;left:60%;}
+.labor_pos_145{top:66.66666666667%;left:60%;}
+.labor_pos_146{top:73.333333333337%;left:60%;}
+.labor_pos_147{top:80.000000000004%;left:60%;}
+.labor_pos_148{top:86.666666666671%;left:60%;}
+.labor_pos_149{top:93.333333333338%;left:60%;}
+
+.coalition_pos_0{top:0%;left:93.33333333%;}
+.coalition_pos_1{top:6.666666666667%;left:93.33333333%;}
+.coalition_pos_2{top:13.333333333334%;left:93.33333333%;}
+.coalition_pos_3{top:20.000000000001%;left:93.33333333%;}
+.coalition_pos_4{top:26.666666666668%;left:93.33333333%;}
+.coalition_pos_5{top:33.333333333335%;left:93.33333333%;}
+.coalition_pos_6{top:40.000000000002%;left:93.33333333%;}
+.coalition_pos_7{top:46.666666666669%;left:93.33333333%;}
+.coalition_pos_8{top:53.333333333336%;left:93.33333333%;}
+.coalition_pos_9{top:60.000000000003%;left:93.33333333%;}
+.coalition_pos_10{top:66.66666666667%;left:93.33333333%;}
+.coalition_pos_11{top:73.333333333337%;left:93.33333333%;}
+.coalition_pos_12{top:80.000000000004%;left:93.33333333%;}
+.coalition_pos_13{top:86.666666666671%;left:93.33333333%;}
+.coalition_pos_14{top:93.333333333338%;left:93.33333333%;}
+.coalition_pos_15{top:0%;left:86.66666667%;}
+.coalition_pos_16{top:6.666666666667%;left:86.66666667%;}
+.coalition_pos_17{top:13.333333333334%;left:86.66666667%;}
+.coalition_pos_18{top:20.000000000001%;left:86.66666667%;}
+.coalition_pos_19{top:26.666666666668%;left:86.66666667%;}
+.coalition_pos_20{top:33.333333333335%;left:86.66666667%;}
+.coalition_pos_21{top:40.000000000002%;left:86.66666667%;}
+.coalition_pos_22{top:46.666666666669%;left:86.66666667%;}
+.coalition_pos_23{top:53.333333333336%;left:86.66666667%;}
+.coalition_pos_24{top:60.000000000003%;left:86.66666667%;}
+.coalition_pos_25{top:66.66666666667%;left:86.66666667%;}
+.coalition_pos_26{top:73.333333333337%;left:86.66666667%;}
+.coalition_pos_27{top:80.000000000004%;left:86.66666667%;}
+.coalition_pos_28{top:86.666666666671%;left:86.66666667%;}
+.coalition_pos_29{top:93.333333333338%;left:86.66666667%;}
+.coalition_pos_30{top:0%;left:80%;}
+.coalition_pos_31{top:6.666666666667%;left:80%;}
+.coalition_pos_32{top:13.333333333334%;left:80%;}
+.coalition_pos_33{top:20.000000000001%;left:80%;}
+.coalition_pos_34{top:26.666666666668%;left:80%;}
+.coalition_pos_35{top:33.333333333335%;left:80%;}
+.coalition_pos_36{top:40.000000000002%;left:80%;}
+.coalition_pos_37{top:46.666666666669%;left:80%;}
+.coalition_pos_38{top:53.333333333336%;left:80%;}
+.coalition_pos_39{top:60.000000000003%;left:80%;}
+.coalition_pos_40{top:66.66666666667%;left:80%;}
+.coalition_pos_41{top:73.333333333337%;left:80%;}
+.coalition_pos_42{top:80.000000000004%;left:80%;}
+.coalition_pos_43{top:86.666666666671%;left:80%;}
+.coalition_pos_44{top:93.333333333338%;left:80%;}
+.coalition_pos_45{top:0%;left:73.33333333%;}
+.coalition_pos_46{top:6.666666666667%;left:73.33333333%;}
+.coalition_pos_47{top:13.333333333334%;left:73.33333333%;}
+.coalition_pos_48{top:20.000000000001%;left:73.33333333%;}
+.coalition_pos_49{top:26.666666666668%;left:73.33333333%;}
+.coalition_pos_50{top:33.333333333335%;left:73.33333333%;}
+.coalition_pos_51{top:40.000000000002%;left:73.33333333%;}
+.coalition_pos_52{top:46.666666666669%;left:73.33333333%;}
+.coalition_pos_53{top:53.333333333336%;left:73.33333333%;}
+.coalition_pos_54{top:60.000000000003%;left:73.33333333%;}
+.coalition_pos_55{top:66.66666666667%;left:73.33333333%;}
+.coalition_pos_56{top:73.333333333337%;left:73.33333333%;}
+.coalition_pos_57{top:80.000000000004%;left:73.33333333%;}
+.coalition_pos_58{top:86.666666666671%;left:73.33333333%;}
+.coalition_pos_59{top:93.333333333338%;left:73.33333333%;}
+.coalition_pos_60{top:0%;left:66.66666667%;}
+.coalition_pos_61{top:6.666666666667%;left:66.66666667%;}
+.coalition_pos_62{top:13.333333333334%;left:66.66666667%;}
+.coalition_pos_63{top:20.000000000001%;left:66.66666667%;}
+.coalition_pos_64{top:26.666666666668%;left:66.66666667%;}
+.coalition_pos_65{top:33.333333333335%;left:66.66666667%;}
+.coalition_pos_66{top:40.000000000002%;left:66.66666667%;}
+.coalition_pos_67{top:46.666666666669%;left:66.66666667%;}
+.coalition_pos_68{top:53.333333333336%;left:66.66666667%;}
+.coalition_pos_69{top:60.000000000003%;left:66.66666667%;}
+.coalition_pos_70{top:66.66666666667%;left:66.66666667%;}
+.coalition_pos_71{top:73.333333333337%;left:66.66666667%;}
+.coalition_pos_72{top:80.000000000004%;left:66.66666667%;}
+.coalition_pos_73{top:86.666666666671%;left:66.66666667%;}
+.coalition_pos_74{top:93.333333333338%;left:66.66666667%;}
+.coalition_pos_75{top:0%;left:60%;}
+.coalition_pos_76{top:6.666666666667%;left:60%;}
+.coalition_pos_77{top:13.333333333334%;left:60%;}
+.coalition_pos_78{top:20.000000000001%;left:60%;}
+.coalition_pos_79{top:26.666666666668%;left:60%;}
+.coalition_pos_80{top:33.333333333335%;left:60%;}
+.coalition_pos_81{top:40.000000000002%;left:60%;}
+.coalition_pos_82{top:46.666666666669%;left:60%;}
+.coalition_pos_83{top:53.333333333336%;left:60%;}
+.coalition_pos_84{top:60.000000000003%;left:60%;}
+.coalition_pos_85{top:66.66666666667%;left:60%;}
+.coalition_pos_86{top:73.333333333337%;left:60%;}
+.coalition_pos_87{top:80.000000000004%;left:60%;}
+.coalition_pos_88{top:86.666666666671%;left:60%;}
+.coalition_pos_89{top:93.333333333338%;left:60%;}
+.coalition_pos_90{top:0%;left:53.33333333%;}
+.coalition_pos_91{top:6.666666666667%;left:53.33333333%;}
+.coalition_pos_92{top:13.333333333334%;left:53.33333333%;}
+.coalition_pos_93{top:20.000000000001%;left:53.33333333%;}
+.coalition_pos_94{top:26.666666666668%;left:53.33333333%;}
+.coalition_pos_95{top:33.333333333335%;left:53.33333333%;}
+.coalition_pos_96{top:40.000000000002%;left:53.33333333%;}
+.coalition_pos_97{top:46.666666666669%;left:53.33333333%;}
+.coalition_pos_98{top:53.333333333336%;left:53.33333333%;}
+.coalition_pos_99{top:60.000000000003%;left:53.33333333%;}
+.coalition_pos_100{top:66.66666666667%;left:53.33333333%;}
+.coalition_pos_101{top:73.333333333337%;left:53.33333333%;}
+.coalition_pos_102{top:80.000000000004%;left:53.33333333%;}
+.coalition_pos_103{top:86.666666666671%;left:53.33333333%;}
+.coalition_pos_104{top:93.333333333338%;left:53.33333333%;}
+.coalition_pos_105{top:0%;left:46.66666667%;}
+.coalition_pos_106{top:6.666666666667%;left:46.66666667%;}
+.coalition_pos_107{top:13.333333333334%;left:46.66666667%;}
+.coalition_pos_108{top:20.000000000001%;left:46.66666667%;}
+.coalition_pos_109{top:26.666666666668%;left:46.66666667%;}
+.coalition_pos_110{top:33.333333333335%;left:46.66666667%;}
+.coalition_pos_111{top:40.000000000002%;left:46.66666667%;}
+.coalition_pos_112{top:46.666666666669%;left:46.66666667%;}
+.coalition_pos_113{top:53.333333333336%;left:46.66666667%;}
+.coalition_pos_114{top:60.000000000003%;left:46.66666667%;}
+.coalition_pos_115{top:66.66666666667%;left:46.66666667%;}
+.coalition_pos_116{top:73.333333333337%;left:46.66666667%;}
+.coalition_pos_117{top:80.000000000004%;left:46.66666667%;}
+.coalition_pos_118{top:86.666666666671%;left:46.66666667%;}
+.coalition_pos_119{top:93.333333333338%;left:46.66666667%;}
+.coalition_pos_120{top:0%;left:40%;}
+.coalition_pos_121{top:6.666666666667%;left:40%;}
+.coalition_pos_122{top:13.333333333334%;left:40%;}
+.coalition_pos_123{top:20.000000000001%;left:40%;}
+.coalition_pos_124{top:26.666666666668%;left:40%;}
+.coalition_pos_125{top:33.333333333335%;left:40%;}
+.coalition_pos_126{top:40.000000000002%;left:40%;}
+.coalition_pos_127{top:46.666666666669%;left:40%;}
+.coalition_pos_128{top:53.333333333336%;left:40%;}
+.coalition_pos_129{top:60.000000000003%;left:40%;}
+.coalition_pos_130{top:66.66666666667%;left:40%;}
+.coalition_pos_131{top:73.333333333337%;left:40%;}
+.coalition_pos_132{top:80.000000000004%;left:40%;}
+.coalition_pos_133{top:86.666666666671%;left:40%;}
+.coalition_pos_134{top:93.333333333338%;left:40%;}
+.coalition_pos_135{top:0%;left:33.33333333%;}
+.coalition_pos_136{top:6.666666666667%;left:33.33333333%;}
+.coalition_pos_137{top:13.333333333334%;left:33.33333333%;}
+.coalition_pos_138{top:20.000000000001%;left:33.33333333%;}
+.coalition_pos_139{top:26.666666666668%;left:33.33333333%;}
+.coalition_pos_140{top:33.333333333335%;left:33.33333333%;}
+.coalition_pos_141{top:40.000000000002%;left:33.33333333%;}
+.coalition_pos_142{top:46.666666666669%;left:33.33333333%;}
+.coalition_pos_143{top:53.333333333336%;left:33.33333333%;}
+.coalition_pos_144{top:60.000000000003%;left:33.33333333%;}
+.coalition_pos_145{top:66.66666666667%;left:33.33333333%;}
+.coalition_pos_146{top:73.333333333337%;left:33.33333333%;}
+.coalition_pos_147{top:80.000000000004%;left:33.33333333%;}
+.coalition_pos_148{top:86.666666666671%;left:33.33333333%;}
+.coalition_pos_149{top:93.333333333338%;left:33.33333333%;}
+
+/*@media screen and (min-width: 800px){*/
+@media screen and (min-width: 760px){
+	.labor_pos_0{top:0%;left:0%;}
+	.labor_pos_1{top:10%;left:0%;}
+	.labor_pos_2{top:20%;left:0%;}
+	.labor_pos_3{top:30%;left:0%;}
+	.labor_pos_4{top:40%;left:0%;}
+	.labor_pos_5{top:50%;left:0%;}
+	.labor_pos_6{top:60%;left:0%;}
+	.labor_pos_7{top:70%;left:0%;}
+	.labor_pos_8{top:80%;left:0%;}
+	.labor_pos_9{top:90%;left:0%;}
+	.labor_pos_10{top:0%;left:5.263157895%;}
+	.labor_pos_11{top:10%;left:5.263157895%;}
+	.labor_pos_12{top:20%;left:5.263157895%;}
+	.labor_pos_13{top:30%;left:5.263157895%;}
+	.labor_pos_14{top:40%;left:5.263157895%;}
+	.labor_pos_15{top:50%;left:5.263157895%;}
+	.labor_pos_16{top:60%;left:5.263157895%;}
+	.labor_pos_17{top:70%;left:5.263157895%;}
+	.labor_pos_18{top:80%;left:5.263157895%;}
+	.labor_pos_19{top:90%;left:5.263157895%;}
+	.labor_pos_20{top:0%;left:10.52631579%;}
+	.labor_pos_21{top:10%;left:10.52631579%;}
+	.labor_pos_22{top:20%;left:10.52631579%;}
+	.labor_pos_23{top:30%;left:10.52631579%;}
+	.labor_pos_24{top:40%;left:10.52631579%;}
+	.labor_pos_25{top:50%;left:10.52631579%;}
+	.labor_pos_26{top:60%;left:10.52631579%;}
+	.labor_pos_27{top:70%;left:10.52631579%;}
+	.labor_pos_28{top:80%;left:10.52631579%;}
+	.labor_pos_29{top:90%;left:10.52631579%;}
+	.labor_pos_30{top:0%;left:15.78947368%;}
+	.labor_pos_31{top:10%;left:15.78947368%;}
+	.labor_pos_32{top:20%;left:15.78947368%;}
+	.labor_pos_33{top:30%;left:15.78947368%;}
+	.labor_pos_34{top:40%;left:15.78947368%;}
+	.labor_pos_35{top:50%;left:15.78947368%;}
+	.labor_pos_36{top:60%;left:15.78947368%;}
+	.labor_pos_37{top:70%;left:15.78947368%;}
+	.labor_pos_38{top:80%;left:15.78947368%;}
+	.labor_pos_39{top:90%;left:15.78947368%;}
+	.labor_pos_40{top:0%;left:21.05263158%;}
+	.labor_pos_41{top:10%;left:21.05263158%;}
+	.labor_pos_42{top:20%;left:21.05263158%;}
+	.labor_pos_43{top:30%;left:21.05263158%;}
+	.labor_pos_44{top:40%;left:21.05263158%;}
+	.labor_pos_45{top:50%;left:21.05263158%;}
+	.labor_pos_46{top:60%;left:21.05263158%;}
+	.labor_pos_47{top:70%;left:21.05263158%;}
+	.labor_pos_48{top:80%;left:21.05263158%;}
+	.labor_pos_49{top:90%;left:21.05263158%;}
+	.labor_pos_50{top:0%;left:26.31578947%;}
+	.labor_pos_51{top:10%;left:26.31578947%;}
+	.labor_pos_52{top:20%;left:26.31578947%;}
+	.labor_pos_53{top:30%;left:26.31578947%;}
+	.labor_pos_54{top:40%;left:26.31578947%;}
+	.labor_pos_55{top:50%;left:26.31578947%;}
+	.labor_pos_56{top:60%;left:26.31578947%;}
+	.labor_pos_57{top:70%;left:26.31578947%;}
+	.labor_pos_58{top:80%;left:26.31578947%;}
+	.labor_pos_59{top:90%;left:26.31578947%;}
+	.labor_pos_60{top:0%;left:31.57894737%;}
+	.labor_pos_61{top:10%;left:31.57894737%;}
+	.labor_pos_62{top:20%;left:31.57894737%;}
+	.labor_pos_63{top:30%;left:31.57894737%;}
+	.labor_pos_64{top:40%;left:31.57894737%;}
+	.labor_pos_65{top:50%;left:31.57894737%;}
+	.labor_pos_66{top:60%;left:31.57894737%;}
+	.labor_pos_67{top:70%;left:31.57894737%;}
+	.labor_pos_68{top:80%;left:31.57894737%;}
+	.labor_pos_69{top:90%;left:31.57894737%;}
+	.labor_pos_70{top:0%;left:36.84210526%;}
+	.labor_pos_71{top:10%;left:36.84210526%;}
+	.labor_pos_72{top:20%;left:36.84210526%;}
+	.labor_pos_73{top:30%;left:36.84210526%;}
+	.labor_pos_74{top:40%;left:36.84210526%;}
+	.labor_pos_75{top:50%;left:36.84210526%;}
+	.labor_pos_76{top:60%;left:36.84210526%;}
+	.labor_pos_77{top:70%;left:36.84210526%;}
+	.labor_pos_78{top:80%;left:36.84210526%;}
+	.labor_pos_79{top:90%;left:36.84210526%;}
+	.labor_pos_80{top:0%;left:42.10526316%;}
+	.labor_pos_81{top:10%;left:42.10526316%;}
+	.labor_pos_82{top:20%;left:42.10526316%;}
+	.labor_pos_83{top:30%;left:42.10526316%;}
+	.labor_pos_84{top:40%;left:42.10526316%;}
+	.labor_pos_85{top:50%;left:42.10526316%;}
+	.labor_pos_86{top:60%;left:42.10526316%;}
+	.labor_pos_87{top:70%;left:42.10526316%;}
+	.labor_pos_88{top:80%;left:42.10526316%;}
+	.labor_pos_89{top:90%;left:42.10526316%;}
+	.labor_pos_90{top:0%;left:47.36842105%;}
+	.labor_pos_91{top:10%;left:47.36842105%;}
+	.labor_pos_92{top:20%;left:47.36842105%;}
+	.labor_pos_93{top:30%;left:47.36842105%;}
+	.labor_pos_94{top:40%;left:47.36842105%;}
+	.labor_pos_95{top:50%;left:47.36842105%;}
+	.labor_pos_96{top:60%;left:47.36842105%;}
+	.labor_pos_97{top:70%;left:47.36842105%;}
+	.labor_pos_98{top:80%;left:47.36842105%;}
+	.labor_pos_99{top:90%;left:47.36842105%;}
+	.labor_pos_100{top:0%;left:52.63157895%;}
+	.labor_pos_101{top:10%;left:52.63157895%;}
+	.labor_pos_102{top:20%;left:52.63157895%;}
+	.labor_pos_103{top:30%;left:52.63157895%;}
+	.labor_pos_104{top:40%;left:52.63157895%;}
+	.labor_pos_105{top:50%;left:52.63157895%;}
+	.labor_pos_106{top:60%;left:52.63157895%;}
+	.labor_pos_107{top:70%;left:52.63157895%;}
+	.labor_pos_108{top:80%;left:52.63157895%;}
+	.labor_pos_109{top:90%;left:52.63157895%;}
+	.labor_pos_110{top:0%;left:57.89473684%;}
+	.labor_pos_111{top:10%;left:57.89473684%;}
+	.labor_pos_112{top:20%;left:57.89473684%;}
+	.labor_pos_113{top:30%;left:57.89473684%;}
+	.labor_pos_114{top:40%;left:57.89473684%;}
+	.labor_pos_115{top:50%;left:57.89473684%;}
+	.labor_pos_116{top:60%;left:57.89473684%;}
+	.labor_pos_117{top:70%;left:57.89473684%;}
+	.labor_pos_118{top:80%;left:57.89473684%;}
+	.labor_pos_119{top:90%;left:57.89473684%;}
+	.labor_pos_120{top:0%;left:63.15789474%;}
+	.labor_pos_121{top:10%;left:63.15789474%;}
+	.labor_pos_122{top:20%;left:63.15789474%;}
+	.labor_pos_123{top:30%;left:63.15789474%;}
+	.labor_pos_124{top:40%;left:63.15789474%;}
+	.labor_pos_125{top:50%;left:63.15789474%;}
+	.labor_pos_126{top:60%;left:63.15789474%;}
+	.labor_pos_127{top:70%;left:63.15789474%;}
+	.labor_pos_128{top:80%;left:63.15789474%;}
+	.labor_pos_129{top:90%;left:63.15789474%;}
+	.labor_pos_130{top:0%;left:68.42105263%;}
+	.labor_pos_131{top:10%;left:68.42105263%;}
+	.labor_pos_132{top:20%;left:68.42105263%;}
+	.labor_pos_133{top:30%;left:68.42105263%;}
+	.labor_pos_134{top:40%;left:68.42105263%;}
+	.labor_pos_135{top:50%;left:68.42105263%;}
+	.labor_pos_136{top:60%;left:68.42105263%;}
+	.labor_pos_137{top:70%;left:68.42105263%;}
+	.labor_pos_138{top:80%;left:68.42105263%;}
+	.labor_pos_139{top:90%;left:68.42105263%;}
+	.labor_pos_140{top:0%;left:73.68421053%;}
+	.labor_pos_141{top:10%;left:73.68421053%;}
+	.labor_pos_142{top:20%;left:73.68421053%;}
+	.labor_pos_143{top:30%;left:73.68421053%;}
+	.labor_pos_144{top:40%;left:73.68421053%;}
+	.labor_pos_145{top:50%;left:73.68421053%;}
+	.labor_pos_146{top:60%;left:73.68421053%;}
+	.labor_pos_147{top:70%;left:73.68421053%;}
+	.labor_pos_148{top:80%;left:73.68421053%;}
+	.labor_pos_149{top:90%;left:73.68421053%;}
+
+	.coalition_pos_0{top:0%;left:94.73684211%;}
+	.coalition_pos_1{top:10%;left:94.73684211%;}
+	.coalition_pos_2{top:20%;left:94.73684211%;}
+	.coalition_pos_3{top:30%;left:94.73684211%;}
+	.coalition_pos_4{top:40%;left:94.73684211%;}
+	.coalition_pos_5{top:50%;left:94.73684211%;}
+	.coalition_pos_6{top:60%;left:94.73684211%;}
+	.coalition_pos_7{top:70%;left:94.73684211%;}
+	.coalition_pos_8{top:80%;left:94.73684211%;}
+	.coalition_pos_9{top:90%;left:94.73684211%;}
+	.coalition_pos_10{top:0%;left:89.47368421%;}
+	.coalition_pos_11{top:10%;left:89.47368421%;}
+	.coalition_pos_12{top:20%;left:89.47368421%;}
+	.coalition_pos_13{top:30%;left:89.47368421%;}
+	.coalition_pos_14{top:40%;left:89.47368421%;}
+	.coalition_pos_15{top:50%;left:89.47368421%;}
+	.coalition_pos_16{top:60%;left:89.47368421%;}
+	.coalition_pos_17{top:70%;left:89.47368421%;}
+	.coalition_pos_18{top:80%;left:89.47368421%;}
+	.coalition_pos_19{top:90%;left:89.47368421%;}
+	.coalition_pos_20{top:0%;left:84.21052632%;}
+	.coalition_pos_21{top:10%;left:84.21052632%;}
+	.coalition_pos_22{top:20%;left:84.21052632%;}
+	.coalition_pos_23{top:30%;left:84.21052632%;}
+	.coalition_pos_24{top:40%;left:84.21052632%;}
+	.coalition_pos_25{top:50%;left:84.21052632%;}
+	.coalition_pos_26{top:60%;left:84.21052632%;}
+	.coalition_pos_27{top:70%;left:84.21052632%;}
+	.coalition_pos_28{top:80%;left:84.21052632%;}
+	.coalition_pos_29{top:90%;left:84.21052632%;}
+	.coalition_pos_30{top:0%;left:78.94736842%;}
+	.coalition_pos_31{top:10%;left:78.94736842%;}
+	.coalition_pos_32{top:20%;left:78.94736842%;}
+	.coalition_pos_33{top:30%;left:78.94736842%;}
+	.coalition_pos_34{top:40%;left:78.94736842%;}
+	.coalition_pos_35{top:50%;left:78.94736842%;}
+	.coalition_pos_36{top:60%;left:78.94736842%;}
+	.coalition_pos_37{top:70%;left:78.94736842%;}
+	.coalition_pos_38{top:80%;left:78.94736842%;}
+	.coalition_pos_39{top:90%;left:78.94736842%;}
+	.coalition_pos_40{top:0%;left:73.68421053%;}
+	.coalition_pos_41{top:10%;left:73.68421053%;}
+	.coalition_pos_42{top:20%;left:73.68421053%;}
+	.coalition_pos_43{top:30%;left:73.68421053%;}
+	.coalition_pos_44{top:40%;left:73.68421053%;}
+	.coalition_pos_45{top:50%;left:73.68421053%;}
+	.coalition_pos_46{top:60%;left:73.68421053%;}
+	.coalition_pos_47{top:70%;left:73.68421053%;}
+	.coalition_pos_48{top:80%;left:73.68421053%;}
+	.coalition_pos_49{top:90%;left:73.68421053%;}
+	.coalition_pos_50{top:0%;left:68.42105263%;}
+	.coalition_pos_51{top:10%;left:68.42105263%;}
+	.coalition_pos_52{top:20%;left:68.42105263%;}
+	.coalition_pos_53{top:30%;left:68.42105263%;}
+	.coalition_pos_54{top:40%;left:68.42105263%;}
+	.coalition_pos_55{top:50%;left:68.42105263%;}
+	.coalition_pos_56{top:60%;left:68.42105263%;}
+	.coalition_pos_57{top:70%;left:68.42105263%;}
+	.coalition_pos_58{top:80%;left:68.42105263%;}
+	.coalition_pos_59{top:90%;left:68.42105263%;}
+	.coalition_pos_60{top:0%;left:63.15789474%;}
+	.coalition_pos_61{top:10%;left:63.15789474%;}
+	.coalition_pos_62{top:20%;left:63.15789474%;}
+	.coalition_pos_63{top:30%;left:63.15789474%;}
+	.coalition_pos_64{top:40%;left:63.15789474%;}
+	.coalition_pos_65{top:50%;left:63.15789474%;}
+	.coalition_pos_66{top:60%;left:63.15789474%;}
+	.coalition_pos_67{top:70%;left:63.15789474%;}
+	.coalition_pos_68{top:80%;left:63.15789474%;}
+	.coalition_pos_69{top:90%;left:63.15789474%;}
+	.coalition_pos_70{top:0%;left:57.89473684%;}
+	.coalition_pos_71{top:10%;left:57.89473684%;}
+	.coalition_pos_72{top:20%;left:57.89473684%;}
+	.coalition_pos_73{top:30%;left:57.89473684%;}
+	.coalition_pos_74{top:40%;left:57.89473684%;}
+	.coalition_pos_75{top:50%;left:57.89473684%;}
+	.coalition_pos_76{top:60%;left:57.89473684%;}
+	.coalition_pos_77{top:70%;left:57.89473684%;}
+	.coalition_pos_78{top:80%;left:57.89473684%;}
+	.coalition_pos_79{top:90%;left:57.89473684%;}
+	.coalition_pos_80{top:0%;left:52.63157895%;}
+	.coalition_pos_81{top:10%;left:52.63157895%;}
+	.coalition_pos_82{top:20%;left:52.63157895%;}
+	.coalition_pos_83{top:30%;left:52.63157895%;}
+	.coalition_pos_84{top:40%;left:52.63157895%;}
+	.coalition_pos_85{top:50%;left:52.63157895%;}
+	.coalition_pos_86{top:60%;left:52.63157895%;}
+	.coalition_pos_87{top:70%;left:52.63157895%;}
+	.coalition_pos_88{top:80%;left:52.63157895%;}
+	.coalition_pos_89{top:90%;left:52.63157895%;}
+	.coalition_pos_90{top:0%;left:47.36842105%;}
+	.coalition_pos_91{top:10%;left:47.36842105%;}
+	.coalition_pos_92{top:20%;left:47.36842105%;}
+	.coalition_pos_93{top:30%;left:47.36842105%;}
+	.coalition_pos_94{top:40%;left:47.36842105%;}
+	.coalition_pos_95{top:50%;left:47.36842105%;}
+	.coalition_pos_96{top:60%;left:47.36842105%;}
+	.coalition_pos_97{top:70%;left:47.36842105%;}
+	.coalition_pos_98{top:80%;left:47.36842105%;}
+	.coalition_pos_99{top:90%;left:47.36842105%;}
+	.coalition_pos_100{top:0%;left:42.10526316%;}
+	.coalition_pos_101{top:10%;left:42.10526316%;}
+	.coalition_pos_102{top:20%;left:42.10526316%;}
+	.coalition_pos_103{top:30%;left:42.10526316%;}
+	.coalition_pos_104{top:40%;left:42.10526316%;}
+	.coalition_pos_105{top:50%;left:42.10526316%;}
+	.coalition_pos_106{top:60%;left:42.10526316%;}
+	.coalition_pos_107{top:70%;left:42.10526316%;}
+	.coalition_pos_108{top:80%;left:42.10526316%;}
+	.coalition_pos_109{top:90%;left:42.10526316%;}
+	.coalition_pos_110{top:0%;left:36.84210526%;}
+	.coalition_pos_111{top:10%;left:36.84210526%;}
+	.coalition_pos_112{top:20%;left:36.84210526%;}
+	.coalition_pos_113{top:30%;left:36.84210526%;}
+	.coalition_pos_114{top:40%;left:36.84210526%;}
+	.coalition_pos_115{top:50%;left:36.84210526%;}
+	.coalition_pos_116{top:60%;left:36.84210526%;}
+	.coalition_pos_117{top:70%;left:36.84210526%;}
+	.coalition_pos_118{top:80%;left:36.84210526%;}
+	.coalition_pos_119{top:90%;left:36.84210526%;}
+	.coalition_pos_120{top:0%;left:31.57894737%;}
+	.coalition_pos_121{top:10%;left:31.57894737%;}
+	.coalition_pos_122{top:20%;left:31.57894737%;}
+	.coalition_pos_123{top:30%;left:31.57894737%;}
+	.coalition_pos_124{top:40%;left:31.57894737%;}
+	.coalition_pos_125{top:50%;left:31.57894737%;}
+	.coalition_pos_126{top:60%;left:31.57894737%;}
+	.coalition_pos_127{top:70%;left:31.57894737%;}
+	.coalition_pos_128{top:80%;left:31.57894737%;}
+	.coalition_pos_129{top:90%;left:31.57894737%;}
+	.coalition_pos_130{top:0%;left:26.31578947%;}
+	.coalition_pos_131{top:10%;left:26.31578947%;}
+	.coalition_pos_132{top:20%;left:26.31578947%;}
+	.coalition_pos_133{top:30%;left:26.31578947%;}
+	.coalition_pos_134{top:40%;left:26.31578947%;}
+	.coalition_pos_135{top:50%;left:26.31578947%;}
+	.coalition_pos_136{top:60%;left:26.31578947%;}
+	.coalition_pos_137{top:70%;left:26.31578947%;}
+	.coalition_pos_138{top:80%;left:26.31578947%;}
+	.coalition_pos_139{top:90%;left:26.31578947%;}
+	.coalition_pos_140{top:0%;left:21.05263158%;}
+	.coalition_pos_141{top:10%;left:21.05263158%;}
+	.coalition_pos_142{top:20%;left:21.05263158%;}
+	.coalition_pos_143{top:30%;left:21.05263158%;}
+	.coalition_pos_144{top:40%;left:21.05263158%;}
+	.coalition_pos_145{top:50%;left:21.05263158%;}
+	.coalition_pos_146{top:60%;left:21.05263158%;}
+	.coalition_pos_147{top:70%;left:21.05263158%;}
+	.coalition_pos_148{top:80%;left:21.05263158%;}
+	.coalition_pos_149{top:90%;left:21.05263158%;}
+}
