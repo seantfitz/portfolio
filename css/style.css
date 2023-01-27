@@ -60,29 +60,28 @@ main{
 }
 
 #vertNav{
+	display: flex;
+	align-items: center;
 	position: fixed;
 	top: 50px;
+	left: 100vw;
 	width: 100vw;
-	width: 0vw;
 	height: calc(100vh - 50px);
 	background-position: top;
 	background-size: cover;
 	background-image: url('../images/aurora_03.jpg');
-	right: 0px;
 	z-index: 1;
-	transition: width 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
 }
 #vertNav.active{
-	width: 100vw;
+	left: 0px;
 }
 
 #vertNav nav{
 	margin: 0 auto;
 }
 #vertNav nav{
-	position: fixed;
 	max-width: unset;
-	top: calc(50vh - 140px);
 	display: flex;
 	flex-direction: column;
 	height: 280px;
