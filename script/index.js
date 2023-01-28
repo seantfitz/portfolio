@@ -9,12 +9,23 @@ const hamburger = header.getElementsByClassName('hamburger')[0];
 const vertNav = document.getElementById('vertNav');
 const vert_A = vertNav.getElementsByTagName('a');
 
+const sections = document.querySelectorAll('section');
+
+// for(i of sections){
+// 	console.log(i.getBoundingClientRect())
+
+// 	window[i.id] = i;
+// }
+
+let loaded = [];
+
 const between = (x, min, max)=>{
 	return x >= min && x <= max;
 }
 
 const min_height = 50;
 let prevScroll = 0;
+let isScrolling;
 
 const scrollPlay = ()=>{
 
@@ -48,6 +59,7 @@ const scrollPlay = ()=>{
 	hamburger.classList.remove('active');
 	vertNav.classList.remove('active');
 
+	/* * * * */
 
 	if((currentScroll > windowHeight * 2) && (currentScroll > prevScroll)){
 		document.getElementById('top').classList.add('shown')
@@ -60,6 +72,37 @@ const scrollPlay = ()=>{
 	}
 
 	prevScroll = currentScroll;
+
+	/* * * * */
+
+	for(i of loaded){
+		i.classList.add('scrolling');
+	}
+	clearTimeout(isScrolling);
+	isScrolling = setTimeout(()=>{
+		for(i of loaded){
+			i.classList.remove('scrolling');
+		}
+		// for(i of sections){
+		// 	if(i.getBoundingClientRect().top <= windowHeight / 2 - 200 && i.getBoundingClientRect().bottom > windowHeight / 2){
+		// 		console.log(i.id)
+		// 		window.location.hash = i.id;
+		// 	}
+		// }
+	},125)
+
+	/* * * * */
+	// console.clear()
+	// document.querySelectorAll('a').classList.remove('selected')
+	// for(i of sections){
+	// 	if(i.getBoundingClientRect().top <= windowHeight / 2 - 200 && i.getBoundingClientRect().bottom > windowHeight / 2){
+	// 		console.log(i.id)
+	// 		// window.location.hash = i.id;
+	// 		document.querySelectorAll('a').classList.remove('selected')
+	// 		document.querySelectorAll(`a[href="#${i.id}"]`)[0].classList.add('selected');
+	// 		console.log(document.querySelectorAll(`a[href="#${i.id}"]`)[0])
+	// 	}
+	// }
 };
 
 document.addEventListener('scroll',scrollPlay)
@@ -97,6 +140,9 @@ for(let i = 0; i < containers.length; i++){
 
 	window[`iframe_${i}`].addEventListener('load',()=>{
 		window[`iframe_${i}`].style.opacity = 1;
-		window[`loader_${i}`].remove();
+		// window[`loader_${i}`].remove();
+		window[`loader_${i}`].classList.add('loaded');
+
+		loaded = document.querySelectorAll(".loader.loaded");
 	})
 }

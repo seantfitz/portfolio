@@ -53,9 +53,9 @@ var now;
 /*GLOBAL VARIABLES*/
 
 function init(){
-	console.warn('init()')
+	// console.warn('init()')
 	// console.log(fetchHeader('script/json/may_16_01.js?t=' + new Date().getTime(),'Last-Modified'));
-	console.log(fetchHeader('script/json/electorates_post_redist.js?t=' + new Date().getTime(),'Last-Modified'));
+	// console.log(fetchHeader('script/json/electorates_post_redist.js?t=' + new Date().getTime(),'Last-Modified'));
 	// $.getJSON('script/json/electorates_pre_redist.js?t=' + new Date().getTime(), function(data){
 	$.getJSON('script/json/electorates_post_redist.js?t=' + new Date().getTime(), function(data){
 	// $.getJSON('script/json/may_10_03.js?t=' + new Date().getTime(), function(data){
@@ -98,7 +98,7 @@ function countDown(){
 	counter --;
 };
 
-function refresh(){console.log('refresh()')
+function refresh(){//console.log('refresh()')
 	// location.reload();
 	$('.seat_box, .option, #info_panel').remove();
 
@@ -133,7 +133,7 @@ function refresh(){console.log('refresh()')
 	init();
 }
 
-function render(){console.log('render()')
+function render(){//console.log('render()')
 
 	for(var i = 0; i < electorate_list.length; i++){
 
@@ -483,7 +483,7 @@ function details(){
 				Votes = '';
 			}
 
-			if(members[i].Status != 'TEMPORARY'){	console.log(members[i])
+			if(members[i].Status != 'TEMPORARY'){	//console.log(members[i])
 				$('#info_panel').append(
 					'<div class="info_block candidate_' + members[i].party.toUpperCase() + '">' +
 						'<table width="100%" cellpadding="0" cellspacing="0">'+
@@ -505,7 +505,7 @@ function details(){
 };
 
 function set_mode(mode){
-	console.warn('set_mode()')
+	//console.warn('set_mode()')
 
 	reset_seats();
 
@@ -535,7 +535,7 @@ function set_mode(mode){
 };
 
 function reset_seats(){
-	console.log('reset_seats');
+	// console.log('reset_seats');
 	$('#slider').val(100);
 	swing_value();
 
@@ -611,7 +611,7 @@ function reset_seats(){
 };
 
 function arrange(){
-	console.log('arrange()')
+	// console.log('arrange()')
 	// console.log(seats_labor, seats_coalition, seats_crossbench)
 	var wrapper_width = $('#wrapper').width();
 
@@ -808,7 +808,7 @@ function swing_value(){
 	arrange();
 };
 
-function check_results(){console.log('check_results()')
+function check_results(){//console.log('check_results()')
 
 	var result_list = Object.keys(result_time).sort(function(a,b){return result_time[a]-result_time[b]});
 	// console.log(result_list)
@@ -849,11 +849,11 @@ function check_results(){console.log('check_results()')
 		}
 	}
 
-	now = new Date().getTime();console.log('now',now)
+	now = new Date().getTime();//console.log('now',now)
 	if(now >= slow_time){
 		timer = 30;
 	}
-	if(now >= start_time && now < stop_time){console.log('go')
+	if(now >= start_time && now < stop_time){//console.log('go')
 		setTimeout(function(){
 			clearInterval(interval);
 			interval = setInterval(countDown,1000);
@@ -862,7 +862,7 @@ function check_results(){console.log('check_results()')
 	}else{
 		clearInterval(interval);
 		$('#counter').html('');
-		console.log('stop')
+		// console.log('stop')
 		// $('.load').addClass('display_none');
 	}loaded();
 
@@ -1203,7 +1203,7 @@ document.onmouseup = function(){
 $(window).resize(arrange);
 
 $(document).ready(function(){
-	var ua = window.navigator.userAgent;console.log(ua)
+	var ua = window.navigator.userAgent;//console.log(ua)
 	var msie = ua.indexOf('MSIE ');
 	var trident = ua.indexOf('Trident/');
 	var edge = ua.indexOf('Edge/');
@@ -1272,7 +1272,7 @@ function fetchHeader(url, wch) {
 // console.log(new Date(fetchHeader('script/json/may_13_02.js?t=' + new Date().getTime(),'Last-Modified')));
 // console.log(fetchHeader('script/json/may_15_01.js?t=' + new Date().getTime(),'Last-Modified'));
 function loading(str){
-	console.log('loading')
+	// console.log('loading')
 
 	$('.load').removeClass('display_none');
 	setTimeout(function(){
@@ -1282,7 +1282,7 @@ function loading(str){
 };
 
 function loaded(){
-	console.warn('LOADED')
+	// console.warn('LOADED')
 	// clearInterval(dotsInterval);
 	$('.load').addClass('display_none');
 };

@@ -1,5 +1,5 @@
 html{
-/*	scroll-behavior: smooth;*/
+	scroll-behavior: smooth;
 }
 body{
 	margin: 0;
@@ -52,7 +52,12 @@ nav span:nth-child(2){
 nav a{
 	text-decoration: none;
 	color: #fafaff;
+	transition: all 0.5s ease;
 }
+
+/*nav a.selected{
+	transform: scale(1.1);
+}*/
 
 main{
 	padding: 100vh 0 0;
@@ -339,11 +344,9 @@ iframe{
 	align-items: center;
 	display: flex;
 	justify-content: center;
-
 	background-image: url('../images/aurora_02.jpg');
 	background-position: center;
-/*	mix-blend-mode: multiply;*/
-
+	mix-blend-mode: multiply;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -434,6 +437,14 @@ iframe{
 	}
 }
 
+.loader.loaded, .loader.loaded .lds-default{
+	display: none;
+	background: unset;
+}
+
+.loader.loaded.scrolling{
+	display: block;
+}
 /****************************************/
 
 /*ARTICLE SPECIFIC*/
@@ -665,4 +676,10 @@ video{
 	.container.outer{
 		margin-bottom: 50px;
 	}
+}
+
+*{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
 }
