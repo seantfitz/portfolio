@@ -646,6 +646,9 @@ video{
 	header nav a{
 		display: none;
 	}
+	a.down{
+		display: inline-block;
+	}
 
 	header nav span{
 		position: absolute;
