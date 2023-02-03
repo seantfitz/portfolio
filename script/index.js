@@ -61,13 +61,24 @@ const scrollPlay = ()=>{
 
 	/* * * * */
 
-	if((currentScroll > windowHeight * 2) && (currentScroll > prevScroll)){
+	// if((currentScroll > windowHeight * 2) && (currentScroll > prevScroll)){
+	// 	//scrolling down
+	// 	document.getElementById('top').classList.add('shown')
+	// }else{
+	// 	//scrolling up
+	// 	document.getElementById('top').classList.remove('shown')
+	// }
+
+	if(currentScroll < prevScroll){
+		// console.log('up')
 		document.getElementById('top').classList.add('shown')
 	}else{
+		// console.log('down')
 		document.getElementById('top').classList.remove('shown')
 	}
 
-	if(currentScroll + windowHeight * 1.5 >= bodyHeight){
+	if((currentScroll < windowHeight * 2) || (currentScroll + windowHeight * 1.5 >= bodyHeight)){
+		// console.log('end bit')
 		document.getElementById('top').classList.remove('shown')
 	}
 
