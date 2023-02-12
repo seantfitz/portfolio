@@ -1,5 +1,5 @@
 html{
-	scroll-behavior: smooth;
+/*	scroll-behavior: smooth;*/
 }
 body{
 	margin: 0;
@@ -291,9 +291,11 @@ img{
 .down{
 	position: absolute;
 	top: -10vh;
+/*	top: 10vh;*/
+	background-color: #f0f;
 }
 
-.down div{
+.down div.arrow{
 	position: absolute;
 	top: 20vh;
 	left: 50%;
@@ -343,6 +345,21 @@ img{
 		transform: rotate(-45deg) translate(-30px, 30px);
 		opacity: 0;
 	}
+}
+
+.down div.text{
+	position: absolute;
+	top: calc(20vh + 80px);
+	font-weight: lighter;
+	font-size: 0.8em;
+	width: 40px;
+	left: 50%;
+	margin-left: -20px;
+	text-align: center;
+	
+}
+.down:hover{
+	transform: unset;
 }
 
 /****************************************/
