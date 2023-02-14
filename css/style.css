@@ -190,6 +190,14 @@ figure{
 	box-sizing: border-box;
 }
 
+section h1{
+	display: none;
+}
+
+h2{
+	font-size: 1.17em;
+}
+
 sub{
 	max-width: 600px;
 	margin: 0 5px 0 0;
