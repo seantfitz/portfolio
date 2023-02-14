@@ -1,15 +1,16 @@
+/*jshint esversion: 6 */
 const body = document.getElementsByTagName('body')[0];
 const html = document.documentElement;
 const header = document.getElementsByTagName('header')[0];
 const down = document.getElementsByClassName('down')[0];
-const nav = header.getElementsByTagName('nav')[0];
+//const nav = header.getElementsByTagName('nav')[0];
 const nav_span = header.getElementsByTagName('span')[1];
-const after = window.getComputedStyle(nav_span,'::after');
+//const after = window.getComputedStyle(nav_span,'::after');
 const hamburger = header.getElementsByClassName('hamburger')[0];
 const vertNav = document.getElementById('vertNav');
 const vert_A = vertNav.getElementsByTagName('a');
 
-const sections = document.querySelectorAll('section');
+//const sections = document.querySelectorAll('section');
 
 // for(i of sections){
 // 	console.log(i.getBoundingClientRect())
@@ -19,9 +20,9 @@ const sections = document.querySelectorAll('section');
 
 let loaded = [];
 
-const between = (x, min, max)=>{
-	return x >= min && x <= max;
-}
+//const between = (x, min, max)=>{
+//	return x >= min && x <= max;
+//};
 
 const min_height = 50;
 let prevScroll = 0;
@@ -71,27 +72,27 @@ const scrollPlay = ()=>{
 
 	if(currentScroll < prevScroll){
 		// console.log('up')
-		document.getElementById('top').classList.add('shown')
+		document.getElementById('top').classList.add('shown');
 	}else{
 		// console.log('down')
-		document.getElementById('top').classList.remove('shown')
+		document.getElementById('top').classList.remove('shown');
 	}
 
 	if((currentScroll < windowHeight * 2) || (currentScroll + windowHeight * 1.5 >= bodyHeight)){
 		// console.log('end bit')
-		document.getElementById('top').classList.remove('shown')
+		document.getElementById('top').classList.remove('shown');
 	}
 
 	prevScroll = currentScroll;
 
 	/* * * * */
 
-	for(i of loaded){
+	for(let i of loaded){
 		i.classList.add('scrolling');
 	}
 	clearTimeout(isScrolling);
 	isScrolling = setTimeout(()=>{
-		for(i of loaded){
+		for(let i of loaded){
 			i.classList.remove('scrolling');
 		}
 		// for(i of sections){
@@ -100,7 +101,7 @@ const scrollPlay = ()=>{
 		// 		window.location.hash = i.id;
 		// 	}
 		// }
-	},125)
+	},125);
 
 	/* * * * */
 	// console.clear()
@@ -116,7 +117,7 @@ const scrollPlay = ()=>{
 	// }
 };
 
-document.addEventListener('scroll',scrollPlay)
+document.addEventListener('scroll',scrollPlay);
 scrollPlay();
 
 hamburger.addEventListener('click',()=>{
@@ -124,11 +125,11 @@ hamburger.addEventListener('click',()=>{
 	vertNav.classList.toggle('active');
 });
 
-for(i of vert_A){
+for(let i of vert_A){
 	i.addEventListener('click',()=>{
 		hamburger.classList.remove('active');
 		vertNav.classList.remove('active');
-	})
+	});
 }
 
 /*******************************************************************/
@@ -136,7 +137,7 @@ for(i of vert_A){
 document.getElementById('top').addEventListener('click',()=>{
 	document.body.scrollTop = 0;
 	document.documentElement.scrollTop = 0;
-})
+});
 
 /*******************************************************************/
 
@@ -155,5 +156,5 @@ for(let i = 0; i < containers.length; i++){
 		window[`loader_${i}`].classList.add('loaded');
 
 		loaded = document.querySelectorAll(".loader.loaded");
-	})
+	});
 }
