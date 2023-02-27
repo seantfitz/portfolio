@@ -522,14 +522,6 @@ iframe{
 
 /*ARTICLE SPECIFIC*/
 
-/*world cup*/
-/*#world-cup iframe{
-	width: 100vw;
-	height: calc(100vh - 50px);
-}*/
-/*world cup*/
-
-
 /*election*/
 #election .container.outer{width: 1000px; height: 704px;}
 #election .container.inner{height: 100%;}
@@ -582,63 +574,6 @@ iframe{
 	width: 100%;
 }
 /*memory*/
-
-/*road toll*/
-#road_toll .container.inner{
-	width: 100vw;
-	overflow-y: auto;
-}
-#road_toll .container.inner{
-	width: 870px;
-}
-
-#road_toll iframe{
-	width: 870px;
-	height: 600px;
-	margin: 0 auto;
-}
-
-@media screen and (max-width: 869px){
-	#road_toll .container.inner, #road_toll iframe{
-		width: 520px;
-		height: 1110px;
-	}
-}
-@media screen and (max-width: 519px){
-	#road_toll .container.inner, #road_toll iframe{
-		width: 300px;
-		height: 972px;
-	}
-}
-/*road toll*/
-
-/*enso*/
-#enso .container.outer{
-	max-width: 1160px;
-	max-height: 660px;
-	width: 100%;
-	height: 100vh;
-}
-#enso .container.inner{
-	width: 100%;
-	height: 100%;
-}
-#enso iframe{
-	width: 100%;
-	height: 100%;
-}
-@media screen and (max-width: 1160px){
-	#enso .container.outer{
-		height: 56.896551724137931vw;
-	}
-}
-/*enso*/
-
-/*qeii*/
-#qeii img{
-	max-height: unset;
-}
-/*qeii*/
 
 /*motion*/
 video{
